@@ -1,0 +1,2318 @@
+{
+    "countries": [
+        {
+            "id": "1",
+            "name": "Uzbekistan",
+            "flagEmoji": "🇺🇿",
+            "description": "A country rich in history, known for its ancient Silk Road cities, stunning Islamic architecture, and vibrant culture.",
+            "capital": "Tashkent",
+            "attractions": [
+                {
+                    "id": "uz_1",
+                    "name": "Registan Square",
+                    "description": "Registan Square is the heart of Samarkand and one of the most breathtaking architectural ensembles in the world. It consists of three grand madrasas—Ulugh Beg, Sher-Dor, and Tilya-Kori—decorated with intricate tilework and Islamic geometric patterns. The square was a major center of education and culture during the Timurid Empire.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "registan_1",
+                            "credit": "https://unsplash.com/@hansjuergen"
+                        },
+                        {
+                            "imageName": "registan_2",
+                            "credit": "https://unsplash.com/@alessionord"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Ulugh Beg Madrasa was once one of the leading universities of the Islamic world, where astronomy and mathematics were taught.",
+                        "The Sher-Dor Madrasa features rare depictions of tigers, which is unusual in Islamic art.",
+                        "Tilya-Kori Madrasa's interior is covered in gold leaf, creating a dazzling effect inside."
+                    ],
+                    "yearBuilt": "1417-1660",
+                    "location": "Samarkand, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "reg1_c1",
+                            "name": "Ulugh Beg's Star Map",
+                            "description": "A celestial chart inspired by the great astronomer Ulugh Beg, who studied the stars while ruling Samarkand.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "reg1_c2",
+                            "name": "Tilya-Kori Gold Tile",
+                            "description": "A dazzling golden tile from the Tilya-Kori Madrasa, reflecting the breathtaking craftsmanship of Registan Square.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "reg1_c3",
+                            "name": "Sher-Dor Tiger Amulet",
+                            "description": "A miniature amulet inspired by the rare tiger motifs on the Sher-Dor Madrasa, symbolizing strength and courage.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 200
+                },
+                {
+                    "id": "uz_2",
+                    "name": "Itchan Kala",
+                    "description": "Itchan Kala is the historic walled city of Khiva, a UNESCO World Heritage site. Surrounded by massive mud-brick walls, it houses ancient madrasas, mosques, palaces, and minarets, preserving the rich history of the Khorezm civilization. It served as an important stop along the Silk Road.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "itchan_kala_1",
+                            "credit": "https://unsplash.com/@farkhod"
+                        },
+                        {
+                            "imageName": "itchan_kala_2",
+                            "credit": "https://unsplash.com/@farkhod"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Kalta Minor Minaret was meant to be the tallest minaret in Central Asia but was never completed.",
+                        "Itchan Kala's city walls are up to 10 meters high and have protected the city for centuries.",
+                        "The Tosh-Hovli Palace inside Itchan Kala has over 150 rooms decorated with colorful mosaics and carved wood."
+                    ],
+                    "yearBuilt": "10th-19th century",
+                    "location": "Khiva, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "itchan1_c1",
+                            "name": "Kalta Minor Miniature",
+                            "description": "A small replica of the famous Kalta Minor Minaret, known for its vibrant turquoise tiles and unfinished history.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "itchan1_c2",
+                            "name": "Khiva Silk Carpet",
+                            "description": "An exquisite silk carpet woven in Khiva, featuring traditional Uzbek patterns and rich colors.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "itchan1_c3",
+                            "name": "Itchan Kala Fortress Brick",
+                            "description": "A historic brick fragment from the ancient walls of Itchan Kala, preserving the legacy of Khiva's fortress city.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "uz_3",
+                    "name": "Ark Fortress",
+                    "description": "The Ark Fortress is an ancient citadel in Bukhara that served as the political and military stronghold of the region for centuries. It housed emirs, government officials, and soldiers, functioning as a city within a city. Today, its towering walls and historic structures stand as a reminder of Bukhara's rich past.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "ark_fortress_1",
+                            "credit": "https://unsplash.com/@axpphotography"
+                        },
+                        {
+                            "imageName": "ark_fortress_2",
+                            "credit": "https://en.wikipedia.org/wiki/Ark_of_Bukhara"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Ark Fortress dates back over 1,500 years and was continuously inhabited until the early 20th century.",
+                        "It was a center of power for Bukhara's rulers, featuring royal residences, mosques, and even a prison.",
+                        "The walls of the fortress are over 16 meters high and were designed to withstand enemy attacks."
+                    ],
+                    "yearBuilt": "5th century",
+                    "location": "Bukhara, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "ark1_c1",
+                            "name": "Bukhara Emir's Seal",
+                            "description": "A replica of the seal used by the Emirs of Bukhara to mark official documents, symbolizing the fortress's political power.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "ark1_c2",
+                            "name": "Ark Fortress Clay Brick",
+                            "description": "An aged clay brick representing the strong defensive walls of the Ark Fortress, which have protected Bukhara for centuries.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "ark1_c3",
+                            "name": "Ancient Bukhara Coin",
+                            "description": "A coin modeled after the currency once minted in the Ark Fortress, reflecting Bukhara's role as a trade hub.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "uz_4",
+                    "name": "Shah-i-Zinda",
+                    "description": "Shah-i-Zinda is a mesmerizing necropolis in Samarkand, famous for its stunning blue-tiled mausoleums. It is believed to be the burial site of Kusam ibn Abbas, a cousin of Prophet Muhammad. The complex spans centuries, showcasing intricate Timurid architecture and Islamic artistry.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "shah_i_zinda_1",
+                            "credit": "https://unsplash.com/@aleksander_stypczynski"
+                        },
+                        {
+                            "imageName": "shah_i_zinda_2",
+                            "credit": "https://en.wikipedia.org/wiki/Shah-i-Zinda"
+                        }
+                    ],
+                    "funFacts": [
+                        "The name 'Shah-i-Zinda' means 'The Living King' and refers to the legend that Kusam ibn Abbas is still alive in a hidden chamber.",
+                        "The mausoleums were built over several centuries, from the 11th to the 19th century, each reflecting different artistic styles.",
+                        "Shah-i-Zinda is known for its breathtaking majolica and mosaic tilework, considered some of the finest in Central Asia."
+                    ],
+                    "yearBuilt": "11th-19th century",
+                    "location": "Samarkand, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "shah1_c1",
+                            "name": "Azure Mausoleum Tile",
+                            "description": "A beautifully crafted blue tile inspired by the intricate mosaic patterns of Shah-i-Zinda's mausoleums.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "shah1_c2",
+                            "name": "Golden Calligraphy Scroll",
+                            "description": "A scroll featuring golden Arabic calligraphy, inspired by the inscriptions found on the tombs of Shah-i-Zinda.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "shah1_c3",
+                            "name": "Timurid Prayer Beads",
+                            "description": "A set of prayer beads inspired by those used by visitors and pilgrims at Shah-i-Zinda for centuries.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "uz_5",
+                    "name": "Tashkent City Park",
+                    "description": "Tashkent City Park is a modern urban oasis featuring lush gardens, artificial lakes, and stunning architecture. As part of the Tashkent City project, it blends nature with contemporary design, offering visitors a relaxing escape in the heart of Uzbekistan's capital. The park is a hotspot for locals and tourists, with attractions like fountains, cafes, and cultural performances.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "tashkent_city_park_1",
+                            "credit": "https://en.wikipedia.org/wiki/Tashkent_City_Park"
+                        },
+                        {
+                            "imageName": "tashkent_city_park_2",
+                            "credit": "https://unsplash.com/@unnobatroo"
+                        }
+                    ],
+                    "funFacts": [
+                        "Tashkent City Park is part of a $1.7 billion development project aimed at modernizing Uzbekistan's capital.",
+                        "The park features an artificial lake where visitors can take boat rides and enjoy waterfront dining.",
+                        "It is designed to be a 'green lung' for Tashkent, providing fresh air and open space in the middle of the city."
+                    ],
+                    "yearBuilt": "2019",
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "tashcity_c1",
+                            "name": "City Park Fountain Miniature",
+                            "description": "A small replica of the iconic fountains in Tashkent City Park, symbolizing its vibrant atmosphere.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "tashcity_c2",
+                            "name": "Skyline Souvenir Coin",
+                            "description": "A commemorative coin featuring the skyline of Tashkent City, representing the modern transformation of Uzbekistan's capital.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "tashcity_c3",
+                            "name": "Artificial Lake Pebble",
+                            "description": "A smooth decorative pebble inspired by the artificial lake in Tashkent City Park, symbolizing peace and relaxation.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "uz_6",
+                    "name": "Magic City",
+                    "description": "Magic City is a vibrant entertainment complex in Tashkent, offering a fairytale-like experience with themed streets, attractions, and family-friendly activities. It features European-style architecture, amusement rides, shopping centers, and restaurants, making it a popular destination for visitors of all ages. The park is known for its magical ambiance, stunning light displays, and lively atmosphere.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "magic_city_1",
+                            "credit": "Behruznurullayevv, CC0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "magic_city_2",
+                            "credit": "Omina Sayfullayeva, CC BY 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Magic City was designed to recreate the charm of European-style streets, giving visitors a taste of different cultures in one place.",
+                        "The park lights up beautifully at night, creating a magical atmosphere with colorful illuminations and water shows.",
+                        "It features a variety of entertainment, from amusement rides to live performances, making it a top destination for families."
+                    ],
+                    "yearBuilt": "2021",
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "magic1_c1",
+                            "name": "Enchanted Street Lantern",
+                            "description": "A miniature replica of the elegant lanterns that light up Magic City's fairytale-like streets.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "magic1_c2",
+                            "name": "Magic Carousel Token",
+                            "description": "A special token inspired by the iconic carousel at Magic City, symbolizing fun and adventure.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "magic1_c3",
+                            "name": "Fantasy Castle Keychain",
+                            "description": "A keychain inspired by the whimsical castle structures in Magic City, representing dreams and wonder.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 150
+                },
+                {
+                    "id": "uz_7",
+                    "name": "Minor Mosque",
+                    "description": "The Minor Mosque, also known as the White Mosque, is a stunning modern place of worship in Tashkent. Built with elegant white marble, it features a grand blue dome and intricate Islamic calligraphy. Situated along the banks of the Ankhor Canal, it has become one of the city's most iconic landmarks for both worship and sightseeing.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "minor_mosque_1",
+                            "credit": "https://www.pexels.com/@axp-photography-500641970/"
+                        },
+                        {
+                            "imageName": "minor_mosque_2",
+                            "credit": "https://www.pexels.com/@axp-photography-500641970/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Unlike many historic mosques in Uzbekistan, Minor Mosque was built in 2014, making it one of the newest religious landmarks in the country.",
+                        "The mosque's bright white marble exterior shines under sunlight, giving it a radiant, almost heavenly appearance.",
+                        "It was designed to accommodate up to 2,400 worshippers at a time, making it one of the largest mosques in Tashkent."
+                    ],
+                    "yearBuilt": "2014",
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "minor1_c1",
+                            "name": "White Marble Fragment",
+                            "description": "A polished piece inspired by the gleaming white marble used in the construction of the Minor Mosque.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "minor1_c2",
+                            "name": "Blue Dome Miniature",
+                            "description": "A small replica of the mosque's iconic blue dome, symbolizing its spiritual and architectural beauty.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "minor1_c3",
+                            "name": "Calligraphy Prayer Bead",
+                            "description": "A prayer bead inscribed with elegant Arabic calligraphy, inspired by the intricate decorations inside the mosque.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "uz_8",
+                    "name": "Amir Timur Square",
+                    "description": "Amir Timur Square is the central landmark of Tashkent, dedicated to the legendary conqueror Amir Timur. Surrounded by government buildings, hotels, and the famous Tashkent Chimes, the square serves as a symbol of Uzbekistan's rich history. At its heart stands an impressive equestrian statue of Amir Timur, symbolizing his power and legacy.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "amir_timur_square_1",
+                            "credit": "Davide Mauro, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "amir_timur_square_2",
+                            "credit": "Adam Harangozó, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The square has changed names multiple times throughout history, previously being called Lenin Square during the Soviet era.",
+                        "The bronze statue of Amir Timur was installed in 1993 to replace a Soviet-era monument, marking Uzbekistan's post-independence identity.",
+                        "Around the square, you can find the historic Tashkent Chimes, a Soviet-built clock tower that has become a city icon."
+                    ],
+                    "yearBuilt": "1882 (original square), 1993 (Amir Timur statue)",
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "timur1_c1",
+                            "name": "Timur's Equestrian Miniature",
+                            "description": "A small replica of the famous Amir Timur statue, symbolizing the legacy of the great conqueror.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "timur1_c2",
+                            "name": "Tashkent Chimes Souvenir",
+                            "description": "A collectible inspired by the historic Tashkent Chimes, an iconic clock tower near the square.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "timur1_c3",
+                            "name": "Bronze Horse Figurine",
+                            "description": "A figurine representing the mighty horse of Amir Timur's statue, symbolizing strength and power.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "uz_9",
+                    "name": "Chimgan Mountains",
+                    "description": "The Chimgan Mountains are a breathtaking natural retreat located in the western Tien Shan range, offering scenic landscapes and outdoor adventure. Known as the 'Uzbek Switzerland,' the region attracts hikers, skiers, and nature lovers year-round. With its lush valleys, snow-capped peaks, and fresh mountain air, Chimgan is one of Uzbekistan's most popular nature destinations.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "chimgan_mountains_1",
+                            "credit": "Dan Lundberg, CC BY-SA 2.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "chimgan_mountains_2",
+                            "credit": "Галиев Ярослав, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The highest peak in the Chimgan range is Greater Chimgan, standing at 3,309 meters (10,856 feet).",
+                        "The region is a year-round destination, offering skiing in winter and hiking, rock climbing, and paragliding in summer.",
+                        "Local legends say Chimgan was a favorite retreat for the rulers of ancient Central Asia, seeking peace in nature."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Tashkent Region, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "chimgan1_c1",
+                            "name": "Greater Chimgan Miniature",
+                            "description": "A small model of Greater Chimgan, the highest peak in the region, symbolizing adventure and exploration.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "chimgan1_c2",
+                            "name": "Mountain Edelweiss",
+                            "description": "A delicate representation of the rare mountain flower found in the Chimgan range, symbolizing resilience.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "chimgan1_c3",
+                            "name": "Glacier Pebble",
+                            "description": "A smooth stone inspired by the glacial rivers of Chimgan, carrying the essence of the mountains.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "uz_10",
+                    "name": "Aral Sea",
+                    "description": "Once one of the largest inland seas in the world, the Aral Sea is now a haunting symbol of environmental change. Due to Soviet-era irrigation projects, the sea has dramatically shrunk, leaving behind vast desert landscapes and abandoned fishing boats. Today, efforts are being made to restore parts of the sea, while its remains serve as a unique site for ecological tourism.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "aral_sea_1",
+                            "credit": "Adam Harangozó, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "aral_sea_2",
+                            "credit": "NASA, derivative work by Zafiroblue05 at en.wikipedia, Public domain, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Aral Sea lost over 90% of its water in just a few decades, creating what is now known as the Aralkum Desert.",
+                        "Rusting fishing boats still sit on dry land in former port towns, a stark reminder of the sea's disappearance.",
+                        "Kazakhstan has managed to partially restore the northern part of the sea using the Kok-Aral Dam."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Karakalpakstan, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "aral1_c1",
+                            "name": "Aral Sea Fossil",
+                            "description": "A preserved seashell from the dried-up seabed, symbolizing the lost marine life of the Aral Sea.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "aral1_c2",
+                            "name": "Rusting Ship Miniature",
+                            "description": "A tiny replica of the abandoned fishing boats left stranded in the desert where the Aral Sea once thrived.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "aral1_c3",
+                            "name": "Salt Crystal",
+                            "description": "A piece of crystallized salt from the Aral's dried basin, representing the environmental transformation of the region.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 200
+                },
+                {
+                    "id": "uz_11",
+                    "name": "Aydarkul Lake",
+                    "description": "Aydarkul Lake is a stunning turquoise lake in the middle of the Kyzylkum Desert, offering a surprising oasis in an arid landscape. Originally formed as a result of Soviet-era water management projects, it has since become a thriving habitat for birds and wildlife. Visitors enjoy fishing, swimming, and camel rides along its sandy shores.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "aydarkul_lake_1",
+                            "credit": "DAVID HOLT, CC BY-SA 2.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "aydarkul_lake_2",
+                            "credit": "https://uzbekistan.travel/en/o/aydarkul/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Aydarkul Lake was unintentionally created in the 1960s due to water overflow from the Syr Darya River.",
+                        "Despite its desert surroundings, the lake is home to over 100 species of birds, making it a birdwatcher's paradise.",
+                        "The lake's remote location and peaceful atmosphere make it a favorite stop for travelers exploring Uzbekistan's eco-tourism sites."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Jizzakh Region, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "aydarkul1_c1",
+                            "name": "Desert Pearl Shell",
+                            "description": "A shell from Aydarkul's waters, symbolizing the lake's unexpected presence in the middle of the desert.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "aydarkul1_c2",
+                            "name": "Nomadic Camel Figurine",
+                            "description": "A handcrafted camel miniature, representing the traditional nomadic lifestyle near Aydarkul Lake.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "aydarkul1_c3",
+                            "name": "Sunstone Fragment",
+                            "description": "A sun-kissed rock found along the shores of Aydarkul, embodying the warmth of the desert oasis.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "uz_12",
+                    "name": "Zaamin National Park",
+                    "description": "Zaamin National Park is Uzbekistan's oldest nature reserve, known for its breathtaking mountain scenery, fresh alpine air, and diverse wildlife. Located in the western Tien Shan range, it offers lush forests, deep gorges, and high-altitude meadows, making it a paradise for hikers and nature lovers. The park is home to rare species, including snow leopards and golden eagles.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "zaamin_national_park_1",
+                            "credit": "Mirzozominiy, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "zaamin_national_park_2",
+                            "credit": "Visola Tangirova, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Zaamin National Park is often called the 'Switzerland of Uzbekistan' due to its stunning alpine landscapes.",
+                        "The park is a popular destination for health tourism, as its fresh mountain air is believed to have healing properties.",
+                        "Some of the park's ancient juniper trees are over 1000 years old, providing a glimpse into the region's ecological history."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Jizzakh Region, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "zaamin1_c1",
+                            "name": "Snow Leopard Paw Print",
+                            "description": "A symbolic representation of the elusive snow leopard, one of the rarest animals found in Zaamin National Park.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "zaamin1_c2",
+                            "name": "Ancient Juniper Leaf",
+                            "description": "A preserved leaf from a thousand-year-old juniper tree, connecting visitors to the ancient forest of Zaamin.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "zaamin1_c3",
+                            "name": "Golden Eagle Feather",
+                            "description": "A beautifully detailed feather, inspired by the majestic golden eagles that soar above Zaamin's peaks.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "uz_13",
+                    "name": "Plov Center 'Besh Qozon'",
+                    "description": "Plov Center 'Besh Qozon' is the ultimate destination for experiencing Uzbekistan's national dish, plov, in its most authentic and grand form. Located in Tashkent, this iconic eatery serves massive portions of plov cooked in giant kazan (cauldrons), attracting both locals and tourists. The rich aroma of slow-cooked rice, meat, and spices fills the air, offering a true taste of Uzbek hospitality.",
+                    "category": "Cuisine",
+                    "images": [
+                        {
+                            "imageName": "plov_center_1",
+                            "credit": "Игорь Улитин, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "plov_center_2",
+                            "credit": "Игорь Улитин, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Plov Center can cook up to 1,500 kg of plov in a single day, using massive cauldrons.",
+                        "Plov is traditionally prepared by male chefs, known as 'oshpaz,' who have mastered the art over generations.",
+                        "The dish is often served with fresh salads, green tea, and quail eggs, creating a well-balanced meal."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "plov1_c1",
+                            "name": "Mini Kazan Pot",
+                            "description": "A small replica of the kazan used to cook Uzbekistan's famous plov, symbolizing the heart of Uzbek cuisine.",
+                            "category": "Culinary Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "plov1_c2",
+                            "name": "Golden Rice Grain",
+                            "description": "A golden rice grain representing the high-quality ingredients that make Uzbek plov so flavorful and unique.",
+                            "category": "Culinary Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "plov1_c3",
+                            "name": "Chef's Wooden Spoon",
+                            "description": "A wooden spoon like the ones used by master plov chefs to stir and serve the dish.",
+                            "category": "Culinary Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "uz_14",
+                    "name": "Chorsu Bazaar",
+                    "description": "Chorsu Bazaar is Tashkent's most famous and vibrant market, offering a rich blend of history, culture, and flavors. Under its iconic blue dome, visitors can explore stalls filled with fresh produce, aromatic spices, dried fruits, and traditional Uzbek delicacies. The bazaar has been a hub of trade for centuries, maintaining its significance since the days of the Silk Road.",
+                    "category": "Cuisine",
+                    "images": [
+                        {
+                            "imageName": "chorsu_bazaar_1",
+                            "credit": "https://www.pexels.com/@nicole-ashley-rahayu-densmoor-3632088/"
+                        },
+                        {
+                            "imageName": "chorsu_bazaar_2",
+                            "credit": "https://www.pexels.com/@axp-photography-500641970/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Chorsu Bazaar has existed for over 600 years, making it one of the oldest markets in Central Asia.",
+                        "The word 'Chorsu' means 'four ways' in Persian, symbolizing its role as a crossroads of trade routes.",
+                        "Vendors still use traditional methods to prepare and sell food, including hand-ground spices and freshly baked tandoor bread."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Tashkent, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "chorsu1_c1",
+                            "name": "Silk Road Spice Jar",
+                            "description": "A beautifully decorated jar filled with a mix of saffron, cumin, and other Silk Road spices sold at Chorsu Bazaar.",
+                            "category": "Culinary Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "chorsu1_c2",
+                            "name": "Handcrafted Uzbek Teacup",
+                            "description": "A traditional Uzbek ceramic teacup, commonly used to serve green tea at the bazaar's many tea stalls.",
+                            "category": "Culinary Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "chorsu1_c3",
+                            "name": "Dried Fruit Basket",
+                            "description": "A basket filled with an assortment of dried apricots, figs, and raisins, a staple of Uzbek markets.",
+                            "category": "Culinary Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "uz_15",
+                    "name": "Siab Bazaar",
+                    "description": "Siab Bazaar is Samarkand's largest and oldest market, offering a vibrant selection of fresh produce, aromatic spices, traditional sweets, and handcrafted goods. Located near the Registan, this bustling bazaar has been a key trading hub since the Silk Road era. Visitors can experience the authentic flavors and rich cultural heritage of Uzbekistan through its diverse offerings.",
+                    "category": "Cuisine",
+                    "images": [
+                        {
+                            "imageName": "siab_bazaar_1",
+                            "credit": "Adam Harangozó, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "siab_bazaar_2",
+                            "credit": "Шухрат Саъдиев, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Siab Bazaar has been a marketplace for over 600 years, serving traders and travelers along the Silk Road.",
+                        "Samarkand's famous bread, 'non,' is baked in tandoor ovens here and is known for its unique round shape and intricate stamps.",
+                        "The bazaar is a top spot to buy 'Samarkand halva,' a sweet treat made from nuts, sugar, and flour."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Samarkand, Uzbekistan",
+                    "collectibles": [
+                        {
+                            "id": "siab1_c1",
+                            "name": "Tandoor Bread Stamp",
+                            "description": "A decorative stamp used to create intricate patterns on Samarkand's famous round bread, baked fresh daily at Siab Bazaar.",
+                            "category": "Culinary Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "siab1_c2",
+                            "name": "Silk Road Spice Pouch",
+                            "description": "A pouch filled with cumin, coriander, and saffron—essential spices found in Uzbek cuisine and sold throughout Siab Bazaar.",
+                            "category": "Culinary Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "siab1_c3",
+                            "name": "Samarkand Halva Box",
+                            "description": "A beautifully packaged box of Samarkand halva, a local sweet treat made with sugar, nuts, and flour.",
+                            "category": "Culinary Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 150
+                }
+            ],
+            "categories": [
+                "Historical",
+                "Modern",
+                "Nature",
+                "Cuisine"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Kazakhstan",
+            "flagEmoji": "🇰🇿",
+            "description": "The largest landlocked country in the world, known for its vast steppes, futuristic capital, and rich nomadic heritage.",
+            "capital": "Astana",
+            "attractions": [
+                {
+                    "id": "kz_01",
+                    "name": "Zharkent Mosque Architectural and Art Museum",
+                    "description": "The Zharkent Mosque is a unique architectural masterpiece blending traditional Chinese and Central Asian Islamic styles. Built without a single nail, this wooden structure stands as a testament to the craftsmanship of Chinese architect Hong Pik. Now a museum, it showcases the cultural fusion and artistic heritage of the region.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "zharkent_mosque_1",
+                            "credit": "https://www.pexels.com/@zeynep-demi-r-612402553/"
+                        },
+                        {
+                            "imageName": "zharkent_mosque_2",
+                            "credit": "https://www.pexels.com/@meruyert-gonullu/"
+                        }
+                    ],
+                    "funFacts": [
+                        "The mosque was designed by a Chinese architect and built entirely without nails, using interlocking wooden joints.",
+                        "Unlike typical mosques, Zharkent Mosque features a pagoda-style roof, reflecting strong Chinese architectural influences.",
+                        "During the Soviet era, the mosque was repurposed for various uses, including a grain storage facility, before being restored as a museum."
+                    ],
+                    "yearBuilt": "1887-1892",
+                    "location": "Zharkent, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "zharkent1_c1",
+                            "name": "Carved Wooden Beam",
+                            "description": "A miniature replica of the mosque's intricate wooden beams, showcasing the unique Chinese-style craftsmanship.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "zharkent1_c2",
+                            "name": "Mosque Pagoda Ornament",
+                            "description": "A decorative ornament inspired by the pagoda-like roof of the Zharkent Mosque, symbolizing its fusion of cultures.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "zharkent1_c3",
+                            "name": "Silk Road Prayer Mat",
+                            "description": "A patterned prayer mat inspired by those used in the mosque, reflecting the Silk Road's diverse cultural influences.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "kz_02",
+                    "name": "Aisha-Bibi Mausoleum",
+                    "description": "The Aisha-Bibi Mausoleum is a stunning 12th-century architectural monument and a symbol of eternal love in Kazakhstan. Built entirely of intricately carved terracotta tiles, it is known for its elegant geometric and floral patterns. The mausoleum is shrouded in legend, believed to have been constructed by a grieving lover in memory of Aisha-Bibi.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "aisha_bibi_1",
+                            "credit": "https://unsplash.com/@rouichi"
+                        },
+                        {
+                            "imageName": "aisha_bibi_2",
+                            "credit": "https://www.pexels.com/@muneeb-najar-806256348/"
+                        }
+                    ],
+                    "funFacts": [
+                        "The mausoleum is considered a sacred site where couples visit to pray for love and happiness in marriage.",
+                        "The structure is adorned with over 60 different types of terracotta ornamentation, making it unique in Central Asian architecture.",
+                        "A legend tells that Aisha-Bibi died from a snakebite on her way to marry the Karakhan ruler, who later built this mausoleum in her honor."
+                    ],
+                    "yearBuilt": "12th century",
+                    "location": "Taraz, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "aisha1_c1",
+                            "name": "Terracotta Love Tile",
+                            "description": "A miniature replica of the intricate terracotta tiles that decorate the Aisha-Bibi Mausoleum, symbolizing love and devotion.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "aisha1_c2",
+                            "name": "Silk Veil of Aisha",
+                            "description": "A delicate silk veil inspired by the legendary love story of Aisha-Bibi and her tragic fate.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "aisha1_c3",
+                            "name": "Karakhan's Ring",
+                            "description": "A symbolic ring representing the devotion of Karakhan, who built the mausoleum in memory of his beloved Aisha-Bibi.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "kz_03",
+                    "name": "Tanbaly Archaeological Site",
+                    "description": "The Tanbaly Archaeological Site is one of Kazakhstan's most important petroglyph sites, featuring over 5,000 ancient rock carvings dating back to the Bronze Age. These petroglyphs depict scenes of hunting, rituals, and deities, offering a glimpse into the beliefs and daily life of early nomadic cultures. Recognized as a UNESCO World Heritage Site, Tanbaly is a sacred and historical treasure of Central Asia.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "tanbaly_1",
+                            "credit": "https://www.pexels.com/@roman-odintsov/"
+                        },
+                        {
+                            "imageName": "tanbaly_2",
+                            "credit": "https://www.pexels.com/@eyup-sayar-290427017/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Tanbaly's petroglyphs date back more than 3,000 years, with some carvings possibly from the early Iron Age.",
+                        "The site includes images of sun-headed deities, which are thought to represent spiritual figures or gods of early nomadic tribes.",
+                        "Tanbaly was discovered in 1957, but local communities had revered the site for centuries as a sacred place."
+                    ],
+                    "yearBuilt": "Bronze Age (approx. 2nd millennium BCE)",
+                    "location": "Almaty Region, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "tanbaly1_c1",
+                            "name": "Sun-Headed Deity Carving",
+                            "description": "A replica of the mysterious sun-headed deity petroglyph found at Tanbaly, symbolizing ancient spiritual beliefs.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "tanbaly1_c2",
+                            "name": "Bronze Age Hunting Scene",
+                            "description": "A stone carving depicting a hunting scene from Tanbaly, showing early nomadic life and traditions.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "tanbaly1_c3",
+                            "name": "Ancient Ritual Circle",
+                            "description": "A miniature carving of a ritual scene from Tanbaly, where early inhabitants performed spiritual ceremonies.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "kz_04",
+                    "name": "Bayterek Tower",
+                    "description": "Bayterek Tower is one of Kazakhstan's most iconic modern landmarks, symbolizing the country's growth and prosperity. Standing 97 meters tall, it represents the legendary tree of life holding a golden egg, inspired by Kazakh folklore. The observation deck offers breathtaking panoramic views of Astana, making it a must-visit attraction.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "bayterek_1",
+                            "credit": "https://en.wikipedia.org/wiki/Baiterek_(monument)"
+                        }
+                    ],
+                    "funFacts": [
+                        "The golden sphere at the top symbolizes a mythical bird laying an egg in the tree of life, a legend from Kazakh folklore.",
+                        "Visitors can place their hand in a golden imprint of former President Nursultan Nazarbayev's hand inside the observation deck.",
+                        "The tower's height of 97 meters represents the year 1997, when Astana (now Nur-Sultan) became the capital of Kazakhstan."
+                    ],
+                    "yearBuilt": "2002",
+                    "location": "Astana, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "bayterek1_c1",
+                            "name": "Golden Egg Replica",
+                            "description": "A small golden egg inspired by the legendary Samruk bird's egg from Kazakh mythology, symbolizing hope and prosperity.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "bayterek1_c2",
+                            "name": "Bayterek Miniature Model",
+                            "description": "A collectible model of the Bayterek Tower, representing Kazakhstan's modern identity and progress.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "bayterek1_c3",
+                            "name": "Handprint Souvenir",
+                            "description": "A small medallion featuring the imprint of the Kazakh leader's hand, symbolizing national unity.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 150
+                },
+                {
+                    "id": "kz_05",
+                    "name": "Ascension Cathedral",
+                    "description": "Ascension Cathedral, also known as Zenkov Cathedral, is a stunning wooden Orthodox church in Almaty. Built entirely without nails, this architectural masterpiece has withstood major earthquakes since its completion in the early 20th century. The cathedral, with its colorful domes and intricate design, remains one of Kazakhstan's most beautiful religious sites.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "ascension_cathedral_1",
+                            "credit": "https://www.pexels.com/@aibek-skakov-418917601"
+                        },
+                        {
+                            "imageName": "ascension_cathedral_2",
+                            "credit": "https://www.pexels.com/@erke-baytokaeva-1346346/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Despite being made entirely of wood, the cathedral has survived multiple earthquakes, including the devastating 1911 earthquake.",
+                        "It was used as a museum and cultural center during Soviet rule before being restored as a place of worship.",
+                        "Designed by Andrei Zenkov, it remains one of the tallest wooden buildings in the world."
+                    ],
+                    "yearBuilt": "1907",
+                    "location": "Almaty, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "ascension1_c1",
+                            "name": "Zenkov Wooden Model",
+                            "description": "A small wooden replica of the famous cathedral, showcasing its unique architectural style.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "ascension1_c2",
+                            "name": "Golden Orthodox Cross",
+                            "description": "A detailed cross inspired by the cathedral's golden domes, symbolizing faith and resilience.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "ascension1_c3",
+                            "name": "Earthquake Survivor Plaque",
+                            "description": "A commemorative plaque representing the cathedral's survival through major earthquakes.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "kz_06",
+                    "name": "Khan Shatyr",
+                    "description": "Khan Shatyr is a massive transparent tent-shaped shopping and entertainment center in Astana, Kazakhstan. Designed by renowned architect Norman Foster, it is one of the most unique modern structures in the world. The building features an indoor beach, shopping malls, and entertainment zones, offering a year-round tropical climate inside.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "khan_shatyr_1",
+                            "credit": "https://www.pexels.com/@aibek-skakov-418917601/"
+                        },
+                        {
+                            "imageName": "khan_shatyr_2",
+                            "credit": "https://www.pexels.com/@aibek-skakov-418917601/"
+                        },
+                        {
+                            "imageName": "khan_shatyr_3",
+                            "credit": "https://www.pexels.com/@aibek-skakov-418917601/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Khan Shatyr is the largest tent-like structure in the world, standing at 150 meters tall.",
+                        "The special ETFE material used in its construction helps regulate temperature, keeping it warm in winter and cool in summer.",
+                        "Inside the complex, there's an artificial beach with real sand imported from the Maldives."
+                    ],
+                    "yearBuilt": "2010",
+                    "location": "Astana, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "khan1_c1",
+                            "name": "Mini Khan Shatyr Model",
+                            "description": "A small-scale replica of the famous Khan Shatyr, representing its innovative architecture.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "khan1_c2",
+                            "name": "Maldives Sand Jar",
+                            "description": "A tiny jar filled with sand, symbolizing the indoor beach experience inside Khan Shatyr.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "khan1_c3",
+                            "name": "ETFE Material Sample",
+                            "description": "A collectible piece of the special ETFE material used in Khan Shatyr's futuristic design.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 140
+                },
+                {
+                    "id": "kz_07",
+                    "name": "Kok-Tobe Hill",
+                    "description": "Kok-Tobe Hill is a scenic viewpoint in Almaty, offering breathtaking panoramic views of the city and the surrounding mountains. It is home to the famous Kok-Tobe TV Tower, amusement attractions, and a Beatles monument. The hill is a popular destination for both tourists and locals seeking relaxation and entertainment in nature.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "kok_tobe_1",
+                            "credit": "https://www.pexels.com/@radis/"
+                        },
+                        {
+                            "imageName": "kok_tobe_2",
+                            "credit": "https://www.pexels.com/@alexander-buzurnyuk-3828467/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Kok-Tobe is home to one of the few Beatles monuments in the world, featuring life-size bronze statues of the band members.",
+                        "The Kok-Tobe TV Tower, standing at 372 meters, is one of the tallest towers in the world that is built in a mountainous region.",
+                        "A cable car connects the city center to the hill, providing a scenic ride with stunning views of Almaty."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Almaty, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "kok1_c1",
+                            "name": "Mini Beatles Statue",
+                            "description": "A miniature replica of the famous Beatles monument found on Kok-Tobe Hill.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "kok1_c2",
+                            "name": "Kok-Tobe Cable Car Ticket",
+                            "description": "A collectible ticket representing the scenic cable car ride to Kok-Tobe Hill.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "kok1_c3",
+                            "name": "Kok-Tobe Rock Fragment",
+                            "description": "A small rock fragment from the hill, symbolizing its natural beauty and elevation.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 120
+                },
+                {
+                    "id": "kz_08",
+                    "name": "Mangystau",
+                    "description": "Mangystau is a breathtaking region in western Kazakhstan, known for its surreal landscapes of canyons, rock formations, and vast deserts. Often called the 'Mars on Earth,' it features ancient underground mosques, unique geological formations, and a mysterious, untouched beauty. The region is rich in history, with petroglyphs and archaeological sites dating back thousands of years.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "mangystau_1",
+                            "credit": "https://www.pexels.com/@edotommo99/"
+                        },
+                        {
+                            "imageName": "mangystau_2",
+                            "credit": "https://www.pexels.com/@edotommo99/"
+                        }
+                    ],
+                    "funFacts": [
+                        "Mangystau's landscapes resemble those of Mars, attracting photographers and adventure seekers from around the world.",
+                        "The region is home to the ancient underground mosques of Beket-Ata and Shakpak-Ata, carved into the rock centuries ago.",
+                        "Scientists have discovered prehistoric fossils in Mangystau, proving that this desert was once an ancient sea millions of years ago."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Mangystau Region, Kazakhstan",
+                    "collectibles": [
+                        {
+                            "id": "mang1_c1",
+                            "name": "Beket-Ata Mosque Replica",
+                            "description": "A miniature model of the famous underground mosque, a sacred pilgrimage site in Mangystau.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "mang1_c2",
+                            "name": "Fossilized Sea Shell",
+                            "description": "A reminder that Mangystau was once covered by an ancient sea millions of years ago.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "mang1_c3",
+                            "name": "Mangystau Rock Fragment",
+                            "description": "A piece of the unique rock formations that make Mangystau's landscape look like an alien planet.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                }
+            ],
+            "categories": [
+                "Historical",
+                "Modern",
+                "Nature"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Kyrgyzstan",
+            "flagEmoji": "🇰🇬",
+            "description": "A mountainous country famous for its stunning natural landscapes, nomadic traditions, and the beautiful Issyk-Kul Lake.",
+            "capital": "Bishkek",
+            "attractions": [
+                {
+                    "id": "kg_01",
+                    "name": "Burana Tower",
+                    "description": "Burana Tower is an ancient minaret and one of the last surviving remnants of the medieval city of Balasagun, a major Silk Road settlement. Originally part of a grand mosque, the tower now stands as a historical landmark surrounded by petroglyphs and ancient balbals (stone warrior statues). It offers visitors a glimpse into the region's deep history and breathtaking views from the top.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "burana_1",
+                            "credit": "Adam Harangozó, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "burana_2",
+                            "credit": "Bgag, CC0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Burana Tower once stood at 45 meters tall, but an earthquake reduced its height to 25 meters.",
+                        "The site contains balbals—ancient Turkic stone warrior statues used as grave markers.",
+                        "Balasagun, the city where Burana Tower is located, was once the capital of the powerful Karakhanid Empire."
+                    ],
+                    "yearBuilt": "11th century",
+                    "location": "Chuy Valley, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "bur1_c1",
+                            "name": "Mini Burana Tower",
+                            "description": "A small-scale replica of the famous Burana Tower, a symbol of Kyrgyzstan's ancient past.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "bur1_c2",
+                            "name": "Balbal Warrior Statue",
+                            "description": "A collectible inspired by the mysterious stone warrior statues found around Burana Tower.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "bur1_c3",
+                            "name": "Silk Road Coin",
+                            "description": "An ancient-style coin representing Burana Tower's location along the historic Silk Road.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 150
+                },
+                {
+                    "id": "kg_02",
+                    "name": "Tash Rabat Caravanserai",
+                    "description": "Tash Rabat is a well-preserved stone caravanserai from the Silk Road era, nestled in the remote mountains of Kyrgyzstan. Believed to have served as a resting place for traders and travelers, its mysterious origins and fortress-like structure make it one of Central Asia's most intriguing historical sites. The caravanserai is built entirely of stone and features numerous rooms, including an underground dungeon.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "tash_rabat_1",
+                            "credit": "https://en.wikipedia.org/wiki/File:Tash_Rabat_in_mountains.jpg"
+                        },
+                        {
+                            "imageName": "tash_rabat_2",
+                            "credit": "https://en.wikipedia.org/wiki/File:Tash_Rabat.JPG"
+                        }
+                    ],
+                    "funFacts": [
+                        "Tash Rabat is located at an altitude of 3,200 meters (10,500 feet), making it one of the highest caravanserais in the world.",
+                        "Historians debate whether Tash Rabat was originally a monastery before being converted into a caravanserai.",
+                        "The structure has 31 rooms, including what is believed to be a dungeon for prisoners or security purposes."
+                    ],
+                    "yearBuilt": "15th century",
+                    "location": "At-Bashy District, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "tash1_c1",
+                            "name": "Silk Road Trader's Coin",
+                            "description": "A replica of an ancient coin used by Silk Road merchants who passed through Tash Rabat.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "tash1_c2",
+                            "name": "Stone Caravanserai Miniature",
+                            "description": "A small-scale model of the legendary Tash Rabat, capturing its fortress-like structure.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "tash1_c3",
+                            "name": "Traveler's Amulet",
+                            "description": "An amulet inspired by talismans carried by traders for protection on the Silk Road.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "kg_03",
+                    "name": "State History Museum",
+                    "description": "The State History Museum of Kyrgyzstan is the country's most important museum, showcasing artifacts from ancient nomadic cultures to the Soviet era and modern independence. Located in the heart of Bishkek, it provides visitors with a deep dive into Kyrgyz history, culture, and traditions. The museum's exhibits include traditional yurts, warrior armor, and Soviet-era propaganda art.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "state_museum_1",
+                            "credit": "https://en.wikipedia.org/wiki/Kyrgyz_State_Historical_Museum"
+                        },
+                        {
+                            "imageName": "state_museum_2",
+                            "credit": "https://en.wikipedia.org/wiki/Kyrgyz_State_Historical_Museum"
+                        }
+                    ],
+                    "funFacts": [
+                        "The museum's building was originally constructed as the Lenin Museum during the Soviet era.",
+                        "It houses an extensive collection of artifacts from the ancient Scythians, an early nomadic people of Central Asia.",
+                        "A giant statue of Lenin once stood in front of the museum but was later moved to a nearby park."
+                    ],
+                    "yearBuilt": "1984",
+                    "location": "Bishkek, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "shm1_c1",
+                            "name": "Nomadic Warrior Helmet",
+                            "description": "A collectible inspired by the traditional helmets worn by Kyrgyz warriors in the past.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "shm1_c2",
+                            "name": "Golden Scythian Deer",
+                            "description": "A miniature replica of an ancient Scythian gold artifact displayed in the museum.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "shm1_c3",
+                            "name": "Soviet Propaganda Poster",
+                            "description": "A reproduction of a Soviet-era propaganda poster once displayed in the museum.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 140
+                },
+                {
+                    "id": "kg_04",
+                    "name": "Ala-Too Square",
+                    "description": "Ala-Too Square is the central plaza of Bishkek and a symbol of Kyrgyz independence. Originally built as Lenin Square during the Soviet era, it was renamed in 1991 to commemorate Kyrgyzstan's sovereignty. The square hosts national celebrations, political gatherings, and cultural events, making it a key landmark in the country's modern history.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "ala_too_1",
+                            "credit": "Emil.akhmatbekov, CC BY-SA 4.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "ala_too_2",
+                            "credit": "Vilya Shoni, CC BY 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The square was originally named after Lenin, and a massive Lenin statue stood here until it was relocated in 2003.",
+                        "The Manas Monument, honoring the legendary Kyrgyz hero, now dominates the center of the square.",
+                        "Ala-Too Square has been the site of major political events, including the 2005 and 2010 revolutions in Kyrgyzstan."
+                    ],
+                    "yearBuilt": "1984",
+                    "location": "Bishkek, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "ats1_c1",
+                            "name": "Manas Warrior Statue",
+                            "description": "A miniature replica of the Manas Monument, symbolizing strength and national pride.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "ats1_c2",
+                            "name": "Kyrgyz National Flag Pin",
+                            "description": "A collectible pin featuring the Kyrgyz flag, inspired by the massive flag waving at Ala-Too Square.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "ats1_c3",
+                            "name": "Soviet-Era Lenin Badge",
+                            "description": "A replica of the Soviet badges that were once sold in the square when it was Lenin Square.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 150
+                },
+                {
+                    "id": "kg_05",
+                    "name": "Ala Archa National Park",
+                    "description": "Ala Archa National Park is a stunning alpine reserve located in the Tian Shan mountains, just outside Bishkek. Known for its breathtaking glaciers, rugged peaks, and diverse wildlife, the park is a paradise for hikers, climbers, and nature lovers. It serves as a popular escape for both locals and tourists seeking fresh air and adventure.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "ala_archa_1",
+                            "credit": "https://en.wikipedia.org/wiki/File:Ala_archa.JPG"
+                        },
+                        {
+                            "imageName": "ala_archa_2",
+                            "credit": "https://en.wikipedia.org/wiki/File:Kyrgyzstan_Ala_Archa_National_Park_03.jpg"
+                        }
+                    ],
+                    "funFacts": [
+                        "The park is home to rare wildlife, including snow leopards, ibex, and golden eagles.",
+                        "Its name, 'Ala Archa,' means 'bright juniper' in Kyrgyz, referring to the juniper forests that cover the slopes.",
+                        "The Ak-Sai Glacier, one of the park's highlights, is a famous destination for experienced climbers."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Chüy Region, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "aa1_c1",
+                            "name": "Snow Leopard Paw Print",
+                            "description": "A collectible representing the elusive snow leopard, one of the park's rarest inhabitants.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "aa1_c2",
+                            "name": "Ak-Sai Glacier Crystal",
+                            "description": "A shimmering crystal inspired by the majestic Ak-Sai Glacier, a highlight of the park.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "aa1_c3",
+                            "name": "Juniper Leaf Charm",
+                            "description": "A small charm inspired by the juniper trees that give the park its name.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "kg_06",
+                    "name": "Jeti-Oguz Valley",
+                    "description": "Jeti-Oguz Valley is a breathtaking natural wonder known for its striking red sandstone cliffs, lush green meadows, and thermal springs. The valley's name, meaning 'Seven Bulls' in Kyrgyz, comes from the legendary rock formation resembling a row of bulls. It is a popular destination for hiking, horseback riding, and exploring local Kyrgyz nomadic culture.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "jeti_oguz_1",
+                            "credit": "https://en.wikipedia.org/wiki/File:Jeti-Oguz-Seven-Bulls.jpg"
+                        },
+                        {
+                            "imageName": "jeti_oguz_2",
+                            "credit": "https://en.wikipedia.org/wiki/File:Mountains_around_Jeti_Oguz.jpg"
+                        }
+                    ],
+                    "funFacts": [
+                        "According to legend, the Seven Bulls rock formation was created when a king's seven prized bulls were turned to stone after a tragic love story.",
+                        "Jeti-Oguz is home to the 'Broken Heart' rock, which is said to symbolize lost love.",
+                        "The valley is famous for its hot springs, which are believed to have healing properties."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Issyk-Kul Region, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "jo1_c1",
+                            "name": "Seven Bulls Rock Figurine",
+                            "description": "A small figurine inspired by the iconic red rock formation that gives Jeti-Oguz its name.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "jo1_c2",
+                            "name": "Broken Heart Amulet",
+                            "description": "A heart-shaped charm inspired by the famous 'Broken Heart' rock in Jeti-Oguz.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "jo1_c3",
+                            "name": "Healing Spring Bottle",
+                            "description": "A small bottle symbolizing the valley's famous mineral-rich hot springs.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "kg_07",
+                    "name": "Osh Bazaar",
+                    "description": "Osh Bazaar is one of the largest and most vibrant markets in Bishkek, offering a rich selection of fresh produce, spices, dried fruits, and traditional Kyrgyz delicacies. It is a sensory experience where locals and tourists can explore the heart of Kyrgyz cuisine and culture. From aromatic plov to hand-crafted bread, the market is a must-visit for food lovers.",
+                    "category": "Cuisine",
+                    "images": [
+                        {
+                            "imageName": "osh_bazaar_1",
+                            "credit": "https://en.wikipedia.org/wiki/File:Osh_bazaar_Bishkek.jpg"
+                        }
+                    ],
+                    "funFacts": [
+                        "Osh Bazaar has been a major trading hub for centuries, connecting merchants from across Central Asia.",
+                        "The market is famous for its 'lepeshka' (traditional round bread), which is baked in clay ovens.",
+                        "You can find 'kurut'—dried yogurt balls, a popular snack among Kyrgyz nomads."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Bishkek, Kyrgyzstan",
+                    "collectibles": [
+                        {
+                            "id": "osh1_c1",
+                            "name": "Lepeshka Bread Token",
+                            "description": "A collectible inspired by the round, golden loaves of traditional Kyrgyz bread sold at Osh Bazaar.",
+                            "category": "Culinary Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "osh1_c2",
+                            "name": "Spice Pouch",
+                            "description": "A small pouch of aromatic spices, symbolizing the vibrant flavors of Kyrgyz cuisine.",
+                            "category": "Culinary Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "osh1_c3",
+                            "name": "Kurut Snack Pack",
+                            "description": "A representation of the traditional dried yogurt balls, a beloved Kyrgyz treat.",
+                            "category": "Culinary Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                }
+            ],
+            "categories": [
+                "Historical",
+                "Modern",
+                "Nature",
+                "Cuisine"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Tajikistan",
+            "flagEmoji": "🇹🇯",
+            "description": "A country dominated by rugged mountains, offering breathtaking scenery, ancient Persian influences, and a deep cultural history.",
+            "capital": "Dushanbe",
+            "attractions": [
+                {
+                    "id": "tj_01",
+                    "name": "Hisor Fortress",
+                    "description": "Hisor Fortress is an ancient stronghold that has stood for over 2,500 years, serving as a strategic military and trade center. The fortress features massive stone walls, an arched entrance gate, and remnants of medieval structures, offering a glimpse into Tajikistan's rich history. It was once the residence of local rulers and played a key role along the Silk Road.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "hisor_fortress_1",
+                            "credit": "https://en.wikipedia.org/wiki/Hisar_(Tajikistan)"
+                        },
+                        {
+                            "imageName": "hisor_fortress_2",
+                            "credit": "Ninara from Helsinki, Finland, CC BY 2.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Hisor Fortress is believed to have been built over 2,500 years ago, making it one of the oldest fortresses in Central Asia.",
+                        "The fortress was an important Silk Road outpost, protecting traders and travelers passing through the region.",
+                        "Its grand entrance gate, which still stands today, was restored in the 16th century under the rule of the Emir of Bukhara."
+                    ],
+                    "yearBuilt": "Estimated 6th century BCE",
+                    "location": "Hisor, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "hisor1_c1",
+                            "name": "Silk Road Coin",
+                            "description": "An ancient-style coin inspired by the bustling trade that passed through Hisor Fortress on the Silk Road.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "hisor1_c2",
+                            "name": "Fortress Gate Replica",
+                            "description": "A miniature replica of the grand entrance gate of Hisor Fortress, symbolizing its enduring strength.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "hisor1_c3",
+                            "name": "Warrior's Dagger",
+                            "description": "A collectible inspired by the weapons used by the fortress guards who defended Hisor for centuries.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "tj_02",
+                    "name": "Proto-Urban Site of Sarazm",
+                    "description": "Sarazm is one of the oldest known proto-urban settlements in Central Asia, dating back over 5,000 years. This UNESCO World Heritage Site reveals an advanced ancient civilization that engaged in metallurgy, trade, and agriculture. The ruins include remnants of homes, temples, and workshops, showcasing early urban planning in the region.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "sarazm_1",
+                            "credit": "https://en.wikipedia.org/wiki/Sarazm"
+                        },
+                        {
+                            "imageName": "sarazm_2",
+                            "credit": "https://en.wikipedia.org/wiki/Sarazm"
+                        }
+                    ],
+                    "funFacts": [
+                        "Sarazm is over 5,000 years old, making it one of the earliest settlements in Central Asia.",
+                        "Archaeologists discovered tools and artifacts indicating that Sarazm had trade connections with Mesopotamia and the Indus Valley.",
+                        "The site provides evidence of early copper and bronze metallurgy, showcasing advanced technological skills."
+                    ],
+                    "yearBuilt": "Circa 3500 BCE",
+                    "location": "Sughd Region, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "sarazm1_c1",
+                            "name": "Ancient Copper Tool",
+                            "description": "A replica of the copper tools found at Sarazm, symbolizing the site's early advancements in metallurgy.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "sarazm1_c2",
+                            "name": "Golden Bead Necklace",
+                            "description": "A collectible inspired by the golden jewelry found at Sarazm, indicating its role as a wealthy trade hub.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "sarazm1_c3",
+                            "name": "Terracotta Pot Shard",
+                            "description": "A fragment of an ancient pot, reflecting the early craftsmanship of Sarazm's inhabitants.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "tj_03",
+                    "name": "Khujand Fortress",
+                    "description": "Khujand Fortress is a historic stronghold that dates back to the Achaemenid Empire and played a key role along the Silk Road. Over centuries, it was destroyed and rebuilt multiple times, including during Alexander the Great's conquest. Today, its remnants and museum offer insights into Tajikistan's ancient military and cultural history.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "khujand_fortress_1",
+                            "credit": "https://en.wikipedia.org/wiki/Khujand"
+                        },
+                        {
+                            "imageName": "khujand_fortress_2",
+                            "credit": "https://en.wikipedia.org/wiki/Khujand"
+                        }
+                    ],
+                    "funFacts": [
+                        "The fortress was originally built over 2,500 years ago and was later captured by Alexander the Great in the 4th century BCE.",
+                        "Khujand Fortress was an important defense point on the Silk Road, protecting merchants and traders.",
+                        "Today, the fortress houses the Khujand Historical Museum, showcasing artifacts from ancient times."
+                    ],
+                    "yearBuilt": "Estimated 6th century BCE",
+                    "location": "Khujand, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "khujand1_c1",
+                            "name": "Silk Road Caravan Token",
+                            "description": "A symbolic token representing the merchants and travelers who passed through Khujand Fortress on the Silk Road.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "khujand1_c2",
+                            "name": "Alexander's Battle Coin",
+                            "description": "A collectible inspired by the coins used during Alexander the Great's conquest of Khujand.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "khujand1_c3",
+                            "name": "Fortress Guard's Sword",
+                            "description": "A replica of the weapons used by the defenders of Khujand Fortress throughout history.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "tj_04",
+                    "name": "National Museum of Tajikistan",
+                    "description": "The National Museum of Tajikistan is the country's largest museum, showcasing its rich history, culture, and natural heritage. It features exhibitions on archaeology, art, and nature, including artifacts from the ancient Silk Road and the Soviet era. The museum's modern design and extensive collection make it a must-visit for history enthusiasts.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "national_museum_tj_1",
+                            "credit": "Ibrahimjon, CC BY-SA 3.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "national_museum_tj_2",
+                            "credit": "https://en.wikipedia.org/wiki/Tajikistan_National_Museum"
+                        }
+                    ],
+                    "funFacts": [
+                        "The museum contains a massive 12-meter-long skeleton of a prehistoric crocodile found in Tajikistan.",
+                        "It houses one of the largest collections of artifacts from the Sogdian civilization, an ancient Persian culture.",
+                        "The museum's dome is inspired by Persian and Central Asian architectural styles."
+                    ],
+                    "yearBuilt": "2013",
+                    "location": "Dushanbe, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "museum_tj_c1",
+                            "name": "Sogdian Gold Coin",
+                            "description": "A collectible inspired by the rare Sogdian coins displayed in the museum, symbolizing the region's ancient trade.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "museum_tj_c2",
+                            "name": "Prehistoric Crocodile Fossil",
+                            "description": "A replica of the giant crocodile fossil found in Tajikistan, one of the museum's most famous exhibits.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "museum_tj_c3",
+                            "name": "Silk Road Ceramic Plate",
+                            "description": "A ceramic plate inspired by ancient artifacts from the Silk Road, showcasing intricate Tajik designs.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "tj_05",
+                    "name": "National Library of Tajikistan",
+                    "description": "The National Library of Tajikistan is the largest library in Central Asia, housing millions of books, manuscripts, and digital archives. Designed with elements of traditional Persian and Tajik architecture, it serves as a cultural and intellectual hub in Dushanbe. The library plays a vital role in preserving Tajikistan's literary heritage and promoting education.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "national_library_tj_1",
+                            "credit": "https://en.wikipedia.org/wiki/National_Library_of_Tajikistan"
+                        },
+                        {
+                            "imageName": "national_library_tj_2",
+                            "credit": "Шухрат Саъдиев, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "With over 10 million books, it is the largest library in Central Asia.",
+                        "The library's architecture is inspired by traditional Persian and Tajik designs, blending modernity with heritage.",
+                        "It features specialized reading halls, including sections dedicated to rare manuscripts and digital archives."
+                    ],
+                    "yearBuilt": "2012",
+                    "location": "Dushanbe, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "library_tj_c1",
+                            "name": "Ancient Manuscript Scroll",
+                            "description": "A collectible inspired by the rare manuscripts stored in the National Library, preserving centuries of Tajik history.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "library_tj_c2",
+                            "name": "Golden Bookstand",
+                            "description": "A decorative bookstand inspired by Persian-style calligraphy holders found in the library.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "library_tj_c3",
+                            "name": "Silk Bookmark",
+                            "description": "A finely woven bookmark representing the connection between the Silk Road and Tajik literature.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "tj_06",
+                    "name": "Karakul Lake",
+                    "description": "Karakul Lake, located in the Pamir Mountains, is one of the highest lakes in the world, formed by an ancient meteor impact. Its deep blue waters, surrounded by snow-capped peaks, create a breathtaking and otherworldly landscape. The lake is a remote and serene destination, attracting adventurers and nature lovers.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "karakul_lake_1",
+                            "credit": "Ekrem Canli, CC BY-SA 3.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "karakul_lake_2",
+                            "credit": "Colegota, CC BY-SA 2.5 ES, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "Karakul Lake was formed over a million years ago by a meteor impact, making it a crater lake.",
+                        "At an altitude of about 3,960 meters (13,000 feet), it is one of the highest lakes in the world.",
+                        "The lake's name means 'Black Lake' in Turkic languages, though its waters appear deep blue or turquoise depending on the season."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Pamir Mountains, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "karakul_tj_c1",
+                            "name": "Meteor Rock Fragment",
+                            "description": "A collectible inspired by the ancient meteor impact that formed Karakul Lake.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "karakul_tj_c2",
+                            "name": "Glacial Ice Crystal",
+                            "description": "A shimmering ice crystal representing the extreme cold and beauty of Karakul Lake's high-altitude environment.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "karakul_tj_c3",
+                            "name": "Pamir Nomad Bracelet",
+                            "description": "A handcrafted bracelet inspired by the nomadic communities living near the lake.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "tj_07",
+                    "name": "Iskanderkul Lake",
+                    "description": "Iskanderkul Lake, named after Alexander the Great, is a breathtaking glacial lake nestled in the Fann Mountains. Known for its turquoise waters and stunning surroundings, it is one of Tajikistan's most iconic natural landmarks. The lake is a popular destination for hikers, nature lovers, and those seeking to explore its legends and waterfalls.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "iskanderkul_lake_1",
+                            "credit": "Rjruiziii, CC BY-SA 3.0, via Wikimedia Commons"
+                        },
+                        {
+                            "imageName": "iskanderkul_lake_2",
+                            "credit": "Troetona, CC BY-SA 4.0, via Wikimedia Commons"
+                        }
+                    ],
+                    "funFacts": [
+                        "The lake is named after Alexander the Great ('Iskander' in Persian), who, according to legend, passed through this region.",
+                        "Iskanderkul's stunning turquoise color comes from glacial minerals in the water.",
+                        "Nearby, the 'Niagara Falls of the Fann Mountains' is a powerful 38-meter-high waterfall that adds to the area's natural beauty."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Fann Mountains, Tajikistan",
+                    "collectibles": [
+                        {
+                            "id": "iskanderkul_tj_c1",
+                            "name": "Alexander's Bronze Coin",
+                            "description": "A collectible inspired by the ancient coins linked to Alexander the Great, who, according to legend, passed by Iskanderkul.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "iskanderkul_tj_c2",
+                            "name": "Turquoise Water Droplet",
+                            "description": "A shimmering gem that represents the mesmerizing blue-green waters of Iskanderkul.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "iskanderkul_tj_c3",
+                            "name": "Fann Mountain Feather",
+                            "description": "A delicate feather symbolizing the rare birds that inhabit the scenic Fann Mountains around Iskanderkul.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                }
+            ],
+            "categories": [
+                "Historical",
+                "Modern",
+                "Nature"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Turkmenistan",
+            "flagEmoji": "🇹🇲",
+            "description": "A country known for its vast deserts, unique marble-clad capital, and the mysterious Darvaza gas crater, also called the 'Door to Hell.'",
+            "capital": "Ashgabat",
+            "attractions": [
+                {
+                    "id": "tm_01",
+                    "name": "Ancient Merv",
+                    "description": "Ancient Merv was one of the greatest cities of the Silk Road and a major cultural, political, and economic center. Once one of the largest cities in the world, it played a key role in trade and civilization for over 4,000 years. Today, its ruins stand as a UNESCO World Heritage site, showcasing the remnants of grand palaces, mosques, and fortifications.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "ancient_merv_1",
+                            "credit": "https://en.wikipedia.org/wiki/Merv"
+                        },
+                        {
+                            "imageName": "ancient_merv_2",
+                            "credit": "https://en.wikipedia.org/wiki/Merv"
+                        }
+                    ],
+                    "funFacts": [
+                        "Merv was once one of the largest cities in the world, rivaling Baghdad in size and influence during the 12th century.",
+                        "The Mongols destroyed Merv in 1221, leading to one of the largest massacres in history, with nearly a million people killed.",
+                        "Merv was a key stop along the Silk Road, linking China, Persia, and the Mediterranean with its bustling trade routes."
+                    ],
+                    "yearBuilt": "Founded around the 3rd millennium BCE",
+                    "location": "Mary Province, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "merv_tm_c1",
+                            "name": "Silk Road Merchant Coin",
+                            "description": "A collectible inspired by the coins once used by traders along the Silk Road in Ancient Merv.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "merv_tm_c2",
+                            "name": "Seljuk Ceremonial Dagger",
+                            "description": "A beautifully crafted dagger representing the powerful Seljuk rule over Merv in the 11th century.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "merv_tm_c3",
+                            "name": "Merv Oasis Pottery Shard",
+                            "description": "A fragment of pottery inspired by the unique ceramic designs found in the ruins of Ancient Merv.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 200
+                },
+                {
+                    "id": "tm_02",
+                    "name": "Kunya-Urgench",
+                    "description": "Kunya-Urgench was the capital of the Khorezm Empire and a key center along the Silk Road. It boasts a collection of stunning mausoleums, mosques, and the towering Kutlug-Timur Minaret, one of the tallest brick minarets in the world. This UNESCO World Heritage site reflects the rich architectural and cultural heritage of medieval Central Asia.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "kunya_urgench_1",
+                            "credit": "https://en.wikipedia.org/wiki/Konye-Urgench"
+                        },
+                        {
+                            "imageName": "kunya_urgench_2",
+                            "credit": "https://en.wikipedia.org/wiki/Konye-Urgench"
+                        }
+                    ],
+                    "funFacts": [
+                        "The Kutlug-Timur Minaret stands at 62 meters (203 feet), making it one of the tallest brick minarets in the world.",
+                        "Kunya-Urgench was destroyed by Genghis Khan in 1221, but later rebuilt and continued to be an important trade hub.",
+                        "The site includes the Mausoleum of Turabek Khanum, which has a beautifully preserved mosaic ceiling with intricate star patterns."
+                    ],
+                    "yearBuilt": "10th-14th centuries",
+                    "location": "Dashoguz Region, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "urgench_tm_c1",
+                            "name": "Kutlug-Timur Minaret Brick",
+                            "description": "A small brick replica inspired by the towering Kutlug-Timur Minaret, a symbol of Kunya-Urgench's Islamic architecture.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "urgench_tm_c2",
+                            "name": "Khorezmian Silk Scroll",
+                            "description": "A collectible inspired by the ancient manuscripts that scholars and traders carried through Kunya-Urgench.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "urgench_tm_c3",
+                            "name": "Turabek Khanum Mosaic Fragment",
+                            "description": "A decorative tile piece reflecting the stunning geometric patterns inside the Mausoleum of Turabek Khanum.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 190
+                },
+                {
+                    "id": "tm_03",
+                    "name": "Parthian Fortresses of Nisa",
+                    "description": "The Parthian Fortresses of Nisa were among the earliest capitals of the Parthian Empire, serving as a royal stronghold and a key political and cultural center. The site consists of two fortress complexes, Old Nisa and New Nisa, with grand halls, defensive walls, and ancient artifacts. Now a UNESCO World Heritage site, it provides insight into the fusion of Hellenistic and Persian influences in Central Asia.",
+                    "category": "Historical",
+                    "images": [
+                        {
+                            "imageName": "nisa_1",
+                            "credit": "https://en.wikipedia.org/wiki/Nisa,_Turkmenistan"
+                        },
+                        {
+                            "imageName": "nisa_2",
+                            "credit": "https://en.wikipedia.org/wiki/Nisa,_Turkmenistan"
+                        }
+                    ],
+                    "funFacts": [
+                        "Nisa was one of the first capitals of the Parthian Empire, which controlled vast territories stretching from the Mediterranean to Central Asia.",
+                        "Archaeologists have uncovered richly decorated ivory rhytons (ceremonial drinking vessels) in Nisa, showcasing its artistic and cultural significance.",
+                        "The fortress was built using sun-dried bricks and had massive defensive walls, reflecting the military strength of the Parthians."
+                    ],
+                    "yearBuilt": "Founded in the 3rd century BCE",
+                    "location": "Bagyr, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "nisa_tm_c1",
+                            "name": "Parthian Rhyton",
+                            "description": "A collectible inspired by the ornate ivory drinking vessels discovered at Nisa, used in royal ceremonies.",
+                            "category": "Historical Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "nisa_tm_c2",
+                            "name": "Nisa Fortress Brick",
+                            "description": "A small fragment representing the sun-dried bricks that formed the massive defensive walls of Nisa.",
+                            "category": "Historical Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        },
+                        {
+                            "id": "nisa_tm_c3",
+                            "name": "Parthian Silver Coin",
+                            "description": "A replica of a silver coin minted during the Parthian rule, symbolizing their vast trade network.",
+                            "category": "Historical Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "tm_04",
+                    "name": "Independence Monument",
+                    "description": "The Independence Monument of Turkmenistan is a grand structure symbolizing the nation's sovereignty and pride. Standing at 118 meters tall, the monument is adorned with golden embellishments and features statues of key historical figures from Turkmen history. Located in Ashgabat, it serves as a central landmark for national celebrations and ceremonies.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "independence_monument_1",
+                            "credit": "https://en.wikipedia.org/wiki/Independence_Monument_(Turkmenistan)"
+                        },
+                        {
+                            "imageName": "independence_monument_2",
+                            "credit": "https://en.wikipedia.org/wiki/Independence_Monument_(Turkmenistan)"
+                        }
+                    ],
+                    "funFacts": [
+                        "The monument's height of 118 meters represents the date of Turkmenistan's independence: October 27, 1991 (10+27+91 = 118).",
+                        "The base of the monument is shaped like a traditional Turkmen yurt, symbolizing the nation's nomadic heritage.",
+                        "Surrounding the monument are statues of great Turkmen leaders, including Oguz Khan, paying tribute to the country's rich history."
+                    ],
+                    "yearBuilt": "2001",
+                    "location": "Ashgabat, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "ind_tm_c1",
+                            "name": "Golden Independence Emblem",
+                            "description": "A collectible inspired by the golden accents on the monument, symbolizing Turkmenistan's sovereignty.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "ind_tm_c2",
+                            "name": "Miniature Monument Replica",
+                            "description": "A small-scale model of the Independence Monument, representing the nation's pride and unity.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "ind_tm_c3",
+                            "name": "Turkmen Yurt Symbol",
+                            "description": "A collectible inspired by the monument's base, shaped like a traditional Turkmen yurt.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 170
+                },
+                {
+                    "id": "tm_05",
+                    "name": "Wedding Palace",
+                    "description": "The Wedding Palace in Ashgabat is a grand architectural marvel designed for lavish wedding ceremonies. The building features a unique eight-pointed star shape, symbolizing Turkmen heritage, and is topped with a massive golden sphere. It serves as the primary venue for official wedding registrations and celebrations in Turkmenistan.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "wedding_palace_1",
+                            "credit": "https://en.wikipedia.org/wiki/Wedding_Palace_%28Ashgabat%29"
+                        },
+                        {
+                            "imageName": "wedding_palace_2",
+                            "credit": "https://en.wikipedia.org/wiki/Wedding_Palace_%28Ashgabat%29"
+                        }
+                    ],
+                    "funFacts": [
+                        "The golden sphere on top of the Wedding Palace is 32 meters in diameter and represents unity and eternity.",
+                        "The building's design incorporates traditional Turkmen carpet motifs, blending modern and cultural elements.",
+                        "It houses multiple wedding halls, VIP suites, and a luxury shopping area for wedding essentials."
+                    ],
+                    "yearBuilt": "2011",
+                    "location": "Ashgabat, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "wed_tm_c1",
+                            "name": "Golden Wedding Ring",
+                            "description": "A collectible inspired by the grand wedding ceremonies held at the palace, symbolizing eternal love.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "wed_tm_c2",
+                            "name": "Wedding Palace Star Emblem",
+                            "description": "A miniature version of the eight-pointed star design, reflecting Turkmen heritage and architecture.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "wed_tm_c3",
+                            "name": "Ornate Turkmen Carpet",
+                            "description": "A collectible inspired by the intricate carpet patterns found in the palace's interior décor.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 160
+                },
+                {
+                    "id": "tm_06",
+                    "name": "Ashgabat's White Marble Buildings",
+                    "description": "Ashgabat, the capital of Turkmenistan, is known for its dazzling skyline of white marble-clad buildings. Recognized by the Guinness World Records for having the highest density of white marble structures, the city exudes a futuristic and luxurious atmosphere. These buildings reflect Turkmenistan's modernization efforts and national pride.",
+                    "category": "Modern",
+                    "images": [
+                        {
+                            "imageName": "ashgabat_marble_1",
+                            "credit": "https://en.wikipedia.org/wiki/Ashgabat"
+                        },
+                        {
+                            "imageName": "ashgabat_marble_2",
+                            "credit": "https://en.wikipedia.org/wiki/Ashgabat"
+                        }
+                    ],
+                    "funFacts": [
+                        "Ashgabat holds the Guinness World Record for having over 4.5 million square meters of white marble covering its buildings.",
+                        "The city's marble aesthetic is meant to symbolize purity, wealth, and prosperity.",
+                        "Many of these structures, including government buildings and hotels, are illuminated at night, creating a surreal glow."
+                    ],
+                    "yearBuilt": "Primarily developed in the 21st century",
+                    "location": "Ashgabat, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "marble_tm_c1",
+                            "name": "Miniature White Marble Block",
+                            "description": "A collectible piece inspired by the luxurious white marble used throughout Ashgabat's skyline.",
+                            "category": "Modern Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "marble_tm_c2",
+                            "name": "Guinness World Record Plaque",
+                            "description": "A tribute to Ashgabat's official recognition as the city with the most white marble buildings.",
+                            "category": "Modern Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "marble_tm_c3",
+                            "name": "Illuminated Skyline Postcard",
+                            "description": "A collectible featuring the breathtaking night-time glow of Ashgabat's marble buildings.",
+                            "category": "Modern Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 180
+                },
+                {
+                    "id": "tm_07",
+                    "name": "Darvaza Gas Crater (The 'Door to Hell')",
+                    "description": "The Darvaza Gas Crater, also known as the 'Door to Hell,' is a massive burning crater in the Karakum Desert. Accidentally created by Soviet geologists in the 1970s, the crater has been burning continuously for decades due to natural gas emissions. Its eerie glow and intense flames make it one of Turkmenistan's most surreal and iconic natural wonders.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "darvaza_1",
+                            "credit": "https://unsplash.com/@ghost_cat"
+                        },
+                        {
+                            "imageName": "darvaza_2",
+                            "credit": "https://en.wikipedia.org/wiki/Darvaza_gas_crater"
+                        }
+                    ],
+                    "funFacts": [
+                        "The crater was set on fire in 1971 to prevent the spread of methane gas, but it has been burning ever since.",
+                        "The crater is about 69 meters (226 feet) wide and 30 meters (98 feet) deep.",
+                        "Despite its extreme conditions, some small extremophile organisms have been discovered living near the crater."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Karakum Desert, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "darv_tm_c1",
+                            "name": "Flaming Gas Rock",
+                            "description": "A collectible inspired by the fiery terrain of the Darvaza Gas Crater, symbolizing nature's raw power.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "darv_tm_c2",
+                            "name": "Soviet Exploration Badge",
+                            "description": "A tribute to the geologists who unintentionally created the 'Door to Hell' while exploring for natural gas.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        },
+                        {
+                            "id": "darv_tm_c3",
+                            "name": "Desert Night Postcard",
+                            "description": "A collectible featuring the surreal glow of the Darvaza Gas Crater against the Karakum Desert's night sky.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        }
+                    ],
+                    "explorationPoints": 200
+                },
+                {
+                    "id": "tm_08",
+                    "name": "Kow Ata Underground Lake",
+                    "description": "Hidden beneath the mountains of Turkmenistan, Kow Ata is a mysterious underground lake known for its warm, mineral-rich waters. The lake is located inside a vast limestone cave and is famous for its high sulfur content, which gives it a distinct smell. It has been a popular natural spa for centuries due to its supposed healing properties.",
+                    "category": "Nature",
+                    "images": [
+                        {
+                            "imageName": "kow_ata_1",
+                            "credit": "https://en.wikipedia.org/wiki/Kow_Ata"
+                        }
+                    ],
+                    "funFacts": [
+                        "The lake's water stays at a warm 33-37°C (91-99°F) year-round, making it a natural hot spring.",
+                        "The cave is home to thousands of bats, adding to its mysterious atmosphere.",
+                        "The name 'Kow Ata' means 'Father of Caves' in Turkmen."
+                    ],
+                    "yearBuilt": null,
+                    "location": "Balkan Province, Turkmenistan",
+                    "collectibles": [
+                        {
+                            "id": "kow_tm_c1",
+                            "name": "Sulfur Crystal Sample",
+                            "description": "A collectible representing the mineral-rich waters of Kow Ata, known for their healing properties.",
+                            "category": "Natural Item",
+                            "rarity": "Rare",
+                            "points": 40
+                        },
+                        {
+                            "id": "kow_tm_c2",
+                            "name": "Underground Bat Figurine",
+                            "description": "A tribute to the thousands of bats that call the Kow Ata cave home.",
+                            "category": "Natural Item",
+                            "rarity": "Uncommon",
+                            "points": 30
+                        },
+                        {
+                            "id": "kow_tm_c3",
+                            "name": "Thermal Spa Token",
+                            "description": "A collectible inspired by the healing reputation of Kow Ata's warm waters.",
+                            "category": "Natural Item",
+                            "rarity": "Legendary",
+                            "points": 50
+                        }
+                    ],
+                    "explorationPoints": 180
+                }
+            ],
+            "categories": [
+                "Historical",
+                "Modern",
+                "Nature"
+            ]
+        }
+    ]
+}

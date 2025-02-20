@@ -1,0 +1,1084 @@
+{
+    "collectibles": [
+        {
+            "id": "reg1_c1",
+            "name": "Ulugh Beg's Star Map",
+            "description": "A celestial chart inspired by the great astronomer Ulugh Beg, who studied the stars while ruling Samarkand.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "reg1_c2",
+            "name": "Tilya-Kori Gold Tile",
+            "description": "A dazzling golden tile from the Tilya-Kori Madrasa, reflecting the breathtaking craftsmanship of Registan Square.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "reg1_c3",
+            "name": "Sher-Dor Tiger Amulet",
+            "description": "A miniature amulet inspired by the rare tiger motifs on the Sher-Dor Madrasa, symbolizing strength and courage.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "itchan1_c1",
+            "name": "Kalta Minor Miniature",
+            "description": "A small replica of the famous Kalta Minor Minaret, known for its vibrant turquoise tiles and unfinished history.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "itchan1_c2",
+            "name": "Khiva Silk Carpet",
+            "description": "An exquisite silk carpet woven in Khiva, featuring traditional Uzbek patterns and rich colors.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "itchan1_c3",
+            "name": "Itchan Kala Fortress Brick",
+            "description": "A historic brick fragment from the ancient walls of Itchan Kala, preserving the legacy of Khiva's fortress city.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "ark1_c1",
+            "name": "Bukhara Emir's Seal",
+            "description": "A replica of the seal used by the Emirs of Bukhara to mark official documents, symbolizing the fortress's political power.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "ark1_c2",
+            "name": "Ark Fortress Clay Brick",
+            "description": "An aged clay brick representing the strong defensive walls of the Ark Fortress, which have protected Bukhara for centuries.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "ark1_c3",
+            "name": "Ancient Bukhara Coin",
+            "description": "A coin modeled after the currency once minted in the Ark Fortress, reflecting Bukhara's role as a trade hub.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "shah1_c1",
+            "name": "Azure Mausoleum Tile",
+            "description": "A beautifully crafted blue tile inspired by the intricate mosaic patterns of Shah-i-Zinda's mausoleums.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "shah1_c2",
+            "name": "Golden Calligraphy Scroll",
+            "description": "A scroll featuring golden Arabic calligraphy, inspired by the inscriptions found on the tombs of Shah-i-Zinda.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "shah1_c3",
+            "name": "Timurid Prayer Beads",
+            "description": "A set of prayer beads inspired by those used by visitors and pilgrims at Shah-i-Zinda for centuries.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "tashcity_c1",
+            "name": "City Park Fountain Miniature",
+            "description": "A small replica of the iconic fountains in Tashkent City Park, symbolizing its vibrant atmosphere.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "tashcity_c2",
+            "name": "Skyline Souvenir Coin",
+            "description": "A commemorative coin featuring the skyline of Tashkent City, representing the modern transformation of Uzbekistan's capital.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "tashcity_c3",
+            "name": "Artificial Lake Pebble",
+            "description": "A smooth decorative pebble inspired by the artificial lake in Tashkent City Park, symbolizing peace and relaxation.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "magic1_c1",
+            "name": "Enchanted Street Lantern",
+            "description": "A miniature replica of the elegant lanterns that light up Magic City's fairytale-like streets.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "magic1_c2",
+            "name": "Magic Carousel Token",
+            "description": "A special token inspired by the iconic carousel at Magic City, symbolizing fun and adventure.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "magic1_c3",
+            "name": "Fantasy Castle Keychain",
+            "description": "A keychain inspired by the whimsical castle structures in Magic City, representing dreams and wonder.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "minor1_c1",
+            "name": "White Marble Fragment",
+            "description": "A polished piece inspired by the gleaming white marble used in the construction of the Minor Mosque.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "minor1_c2",
+            "name": "Blue Dome Miniature",
+            "description": "A small replica of the mosque's iconic blue dome, symbolizing its spiritual and architectural beauty.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "minor1_c3",
+            "name": "Calligraphy Prayer Bead",
+            "description": "A prayer bead inscribed with elegant Arabic calligraphy, inspired by the intricate decorations inside the mosque.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "timur1_c1",
+            "name": "Timur's Equestrian Miniature",
+            "description": "A small replica of the famous Amir Timur statue, symbolizing the legacy of the great conqueror.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "timur1_c2",
+            "name": "Tashkent Chimes Souvenir",
+            "description": "A collectible inspired by the historic Tashkent Chimes, an iconic clock tower near the square.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "timur1_c3",
+            "name": "Bronze Horse Figurine",
+            "description": "A figurine representing the mighty horse of Amir Timur's statue, symbolizing strength and power.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "chimgan1_c1",
+            "name": "Greater Chimgan Miniature",
+            "description": "A small model of Greater Chimgan, the highest peak in the region, symbolizing adventure and exploration.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "chimgan1_c2",
+            "name": "Mountain Edelweiss",
+            "description": "A delicate representation of the rare mountain flower found in the Chimgan range, symbolizing resilience.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "chimgan1_c3",
+            "name": "Glacier Pebble",
+            "description": "A smooth stone inspired by the glacial rivers of Chimgan, carrying the essence of the mountains.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "aral1_c1",
+            "name": "Aral Sea Fossil",
+            "description": "A preserved seashell from the dried-up seabed, symbolizing the lost marine life of the Aral Sea.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "aral1_c2",
+            "name": "Rusting Ship Miniature",
+            "description": "A tiny replica of the abandoned fishing boats left stranded in the desert where the Aral Sea once thrived.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "aral1_c3",
+            "name": "Salt Crystal",
+            "description": "A piece of crystallized salt from the Aral's dried basin, representing the environmental transformation of the region.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "aydarkul1_c1",
+            "name": "Desert Pearl Shell",
+            "description": "A shell from Aydarkul's waters, symbolizing the lake's unexpected presence in the middle of the desert.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "aydarkul1_c2",
+            "name": "Nomadic Camel Figurine",
+            "description": "A handcrafted camel miniature, representing the traditional nomadic lifestyle near Aydarkul Lake.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "aydarkul1_c3",
+            "name": "Sunstone Fragment",
+            "description": "A sun-kissed rock found along the shores of Aydarkul, embodying the warmth of the desert oasis.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "zaamin1_c1",
+            "name": "Snow Leopard Paw Print",
+            "description": "A symbolic representation of the elusive snow leopard, one of the rarest animals found in Zaamin National Park.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "zaamin1_c2",
+            "name": "Ancient Juniper Leaf",
+            "description": "A preserved leaf from a thousand-year-old juniper tree, connecting visitors to the ancient forest of Zaamin.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "zaamin1_c3",
+            "name": "Golden Eagle Feather",
+            "description": "A beautifully detailed feather, inspired by the majestic golden eagles that soar above Zaamin's peaks.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "plov1_c1",
+            "name": "Mini Kazan Pot",
+            "description": "A small replica of the kazan used to cook Uzbekistan's famous plov, symbolizing the heart of Uzbek cuisine.",
+            "category": "Culinary Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "plov1_c2",
+            "name": "Golden Rice Grain",
+            "description": "A golden rice grain representing the high-quality ingredients that make Uzbek plov so flavorful and unique.",
+            "category": "Culinary Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "plov1_c3",
+            "name": "Chef's Wooden Spoon",
+            "description": "A wooden spoon like the ones used by master plov chefs to stir and serve the dish.",
+            "category": "Culinary Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "chorsu1_c1",
+            "name": "Silk Road Spice Jar",
+            "description": "A beautifully decorated jar filled with a mix of saffron, cumin, and other Silk Road spices sold at Chorsu Bazaar.",
+            "category": "Culinary Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "chorsu1_c2",
+            "name": "Handcrafted Uzbek Teacup",
+            "description": "A traditional Uzbek ceramic teacup, commonly used to serve green tea at the bazaar's many tea stalls.",
+            "category": "Culinary Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "chorsu1_c3",
+            "name": "Dried Fruit Basket",
+            "description": "A basket filled with an assortment of dried apricots, figs, and raisins, a staple of Uzbek markets.",
+            "category": "Culinary Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "siab1_c1",
+            "name": "Tandoor Bread Stamp",
+            "description": "A decorative stamp used to create intricate patterns on Samarkand's famous round bread, baked fresh daily at Siab Bazaar.",
+            "category": "Culinary Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "siab1_c2",
+            "name": "Silk Road Spice Pouch",
+            "description": "A pouch filled with cumin, coriander, and saffron—essential spices found in Uzbek cuisine and sold throughout Siab Bazaar.",
+            "category": "Culinary Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "siab1_c3",
+            "name": "Samarkand Halva Box",
+            "description": "A beautifully packaged box of Samarkand halva, a local sweet treat made with sugar, nuts, and flour.",
+            "category": "Culinary Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "zharkent1_c1",
+            "name": "Carved Wooden Beam",
+            "description": "A miniature replica of the mosque's intricate wooden beams, showcasing the unique Chinese-style craftsmanship.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "zharkent1_c2",
+            "name": "Mosque Pagoda Ornament",
+            "description": "A decorative ornament inspired by the pagoda-like roof of the Zharkent Mosque, symbolizing its fusion of cultures.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "zharkent1_c3",
+            "name": "Silk Road Prayer Mat",
+            "description": "A patterned prayer mat inspired by those used in the mosque, reflecting the Silk Road's diverse cultural influences.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "aisha1_c1",
+            "name": "Terracotta Love Tile",
+            "description": "A miniature replica of the intricate terracotta tiles that decorate the Aisha-Bibi Mausoleum, symbolizing love and devotion.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "aisha1_c2",
+            "name": "Silk Veil of Aisha",
+            "description": "A delicate silk veil inspired by the legendary love story of Aisha-Bibi and her tragic fate.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "aisha1_c3",
+            "name": "Karakhan's Ring",
+            "description": "A symbolic ring representing the devotion of Karakhan, who built the mausoleum in memory of his beloved Aisha-Bibi.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "tanbaly1_c1",
+            "name": "Sun-Headed Deity Carving",
+            "description": "A replica of the mysterious sun-headed deity petroglyph found at Tanbaly, symbolizing ancient spiritual beliefs.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "tanbaly1_c2",
+            "name": "Bronze Age Hunting Scene",
+            "description": "A stone carving depicting a hunting scene from Tanbaly, showing early nomadic life and traditions.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "tanbaly1_c3",
+            "name": "Ancient Ritual Circle",
+            "description": "A miniature carving of a ritual scene from Tanbaly, where early inhabitants performed spiritual ceremonies.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "bayterek1_c1",
+            "name": "Golden Egg Replica",
+            "description": "A small golden egg inspired by the legendary Samruk bird's egg from Kazakh mythology, symbolizing hope and prosperity.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "bayterek1_c2",
+            "name": "Bayterek Miniature Model",
+            "description": "A collectible model of the Bayterek Tower, representing Kazakhstan's modern identity and progress.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "bayterek1_c3",
+            "name": "Handprint Souvenir",
+            "description": "A small medallion featuring the imprint of the Kazakh leader's hand, symbolizing national unity.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "ascension1_c1",
+            "name": "Zenkov Wooden Model",
+            "description": "A small wooden replica of the famous cathedral, showcasing its unique architectural style.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "ascension1_c2",
+            "name": "Golden Orthodox Cross",
+            "description": "A detailed cross inspired by the cathedral's golden domes, symbolizing faith and resilience.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "ascension1_c3",
+            "name": "Earthquake Survivor Plaque",
+            "description": "A commemorative plaque representing the cathedral's survival through major earthquakes.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "khan1_c1",
+            "name": "Mini Khan Shatyr Model",
+            "description": "A small-scale replica of the famous Khan Shatyr, representing its innovative architecture.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "khan1_c2",
+            "name": "Maldives Sand Jar",
+            "description": "A tiny jar filled with sand, symbolizing the indoor beach experience inside Khan Shatyr.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "khan1_c3",
+            "name": "ETFE Material Sample",
+            "description": "A collectible piece of the special ETFE material used in Khan Shatyr's futuristic design.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "kok1_c1",
+            "name": "Mini Beatles Statue",
+            "description": "A miniature replica of the famous Beatles monument found on Kok-Tobe Hill.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "kok1_c2",
+            "name": "Kok-Tobe Cable Car Ticket",
+            "description": "A collectible ticket representing the scenic cable car ride to Kok-Tobe Hill.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "kok1_c3",
+            "name": "Kok-Tobe Rock Fragment",
+            "description": "A small rock fragment from the hill, symbolizing its natural beauty and elevation.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "mang1_c1",
+            "name": "Beket-Ata Mosque Replica",
+            "description": "A miniature model of the famous underground mosque, a sacred pilgrimage site in Mangystau.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "mang1_c2",
+            "name": "Fossilized Sea Shell",
+            "description": "A reminder that Mangystau was once covered by an ancient sea millions of years ago.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "mang1_c3",
+            "name": "Mangystau Rock Fragment",
+            "description": "A piece of the unique rock formations that make Mangystau's landscape look like an alien planet.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "bur1_c1",
+            "name": "Mini Burana Tower",
+            "description": "A small-scale replica of the famous Burana Tower, a symbol of Kyrgyzstan's ancient past.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "bur1_c2",
+            "name": "Balbal Warrior Statue",
+            "description": "A collectible inspired by the mysterious stone warrior statues found around Burana Tower.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "bur1_c3",
+            "name": "Silk Road Coin",
+            "description": "An ancient-style coin representing Burana Tower's location along the historic Silk Road.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "tash1_c1",
+            "name": "Silk Road Trader's Coin",
+            "description": "A replica of an ancient coin used by Silk Road merchants who passed through Tash Rabat.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "tash1_c2",
+            "name": "Stone Caravanserai Miniature",
+            "description": "A small-scale model of the legendary Tash Rabat, capturing its fortress-like structure.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "tash1_c3",
+            "name": "Traveler's Amulet",
+            "description": "An amulet inspired by talismans carried by traders for protection on the Silk Road.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "shm1_c1",
+            "name": "Nomadic Warrior Helmet",
+            "description": "A collectible inspired by the traditional helmets worn by Kyrgyz warriors in the past.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "shm1_c2",
+            "name": "Golden Scythian Deer",
+            "description": "A miniature replica of an ancient Scythian gold artifact displayed in the museum.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "shm1_c3",
+            "name": "Soviet Propaganda Poster",
+            "description": "A reproduction of a Soviet-era propaganda poster once displayed in the museum.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "ats1_c1",
+            "name": "Manas Warrior Statue",
+            "description": "A miniature replica of the Manas Monument, symbolizing strength and national pride.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "ats1_c2",
+            "name": "Kyrgyz National Flag Pin",
+            "description": "A collectible pin featuring the Kyrgyz flag, inspired by the massive flag waving at Ala-Too Square.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "ats1_c3",
+            "name": "Soviet-Era Lenin Badge",
+            "description": "A replica of the Soviet badges that were once sold in the square when it was Lenin Square.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "aa1_c1",
+            "name": "Snow Leopard Paw Print",
+            "description": "A collectible representing the elusive snow leopard, one of the park's rarest inhabitants.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "aa1_c2",
+            "name": "Ak-Sai Glacier Crystal",
+            "description": "A shimmering crystal inspired by the majestic Ak-Sai Glacier, a highlight of the park.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "aa1_c3",
+            "name": "Juniper Leaf Charm",
+            "description": "A small charm inspired by the juniper trees that give the park its name.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "jo1_c1",
+            "name": "Seven Bulls Rock Figurine",
+            "description": "A small figurine inspired by the iconic red rock formation that gives Jeti-Oguz its name.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "jo1_c2",
+            "name": "Broken Heart Amulet",
+            "description": "A heart-shaped charm inspired by the famous 'Broken Heart' rock in Jeti-Oguz.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "jo1_c3",
+            "name": "Healing Spring Bottle",
+            "description": "A small bottle symbolizing the valley's famous mineral-rich hot springs.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "osh1_c1",
+            "name": "Lepeshka Bread Token",
+            "description": "A collectible inspired by the round, golden loaves of traditional Kyrgyz bread sold at Osh Bazaar.",
+            "category": "Culinary Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "osh1_c2",
+            "name": "Spice Pouch",
+            "description": "A small pouch of aromatic spices, symbolizing the vibrant flavors of Kyrgyz cuisine.",
+            "category": "Culinary Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "osh1_c3",
+            "name": "Kurut Snack Pack",
+            "description": "A representation of the traditional dried yogurt balls, a beloved Kyrgyz treat.",
+            "category": "Culinary Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "hisor1_c1",
+            "name": "Silk Road Coin",
+            "description": "An ancient-style coin inspired by the bustling trade that passed through Hisor Fortress on the Silk Road.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "hisor1_c2",
+            "name": "Fortress Gate Replica",
+            "description": "A miniature replica of the grand entrance gate of Hisor Fortress, symbolizing its enduring strength.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "hisor1_c3",
+            "name": "Warrior's Dagger",
+            "description": "A collectible inspired by the weapons used by the fortress guards who defended Hisor for centuries.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "sarazm1_c1",
+            "name": "Ancient Copper Tool",
+            "description": "A replica of the copper tools found at Sarazm, symbolizing the site's early advancements in metallurgy.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "sarazm1_c2",
+            "name": "Golden Bead Necklace",
+            "description": "A collectible inspired by the golden jewelry found at Sarazm, indicating its role as a wealthy trade hub.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "sarazm1_c3",
+            "name": "Terracotta Pot Shard",
+            "description": "A fragment of an ancient pot, reflecting the early craftsmanship of Sarazm's inhabitants.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "khujand1_c1",
+            "name": "Silk Road Caravan Token",
+            "description": "A symbolic token representing the merchants and travelers who passed through Khujand Fortress on the Silk Road.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "khujand1_c2",
+            "name": "Alexander's Battle Coin",
+            "description": "A collectible inspired by the coins used during Alexander the Great's conquest of Khujand.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "khujand1_c3",
+            "name": "Fortress Guard's Sword",
+            "description": "A replica of the weapons used by the defenders of Khujand Fortress throughout history.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "museum_tj_c1",
+            "name": "Sogdian Gold Coin",
+            "description": "A collectible inspired by the rare Sogdian coins displayed in the museum, symbolizing the region's ancient trade.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "museum_tj_c2",
+            "name": "Prehistoric Crocodile Fossil",
+            "description": "A replica of the giant crocodile fossil found in Tajikistan, one of the museum's most famous exhibits.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "museum_tj_c3",
+            "name": "Silk Road Ceramic Plate",
+            "description": "A ceramic plate inspired by ancient artifacts from the Silk Road, showcasing intricate Tajik designs.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "library_tj_c1",
+            "name": "Ancient Manuscript Scroll",
+            "description": "A collectible inspired by the rare manuscripts stored in the National Library, preserving centuries of Tajik history.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "library_tj_c2",
+            "name": "Golden Bookstand",
+            "description": "A decorative bookstand inspired by Persian-style calligraphy holders found in the library.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "library_tj_c3",
+            "name": "Silk Bookmark",
+            "description": "A finely woven bookmark representing the connection between the Silk Road and Tajik literature.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "karakul_tj_c1",
+            "name": "Meteor Rock Fragment",
+            "description": "A collectible inspired by the ancient meteor impact that formed Karakul Lake.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "karakul_tj_c2",
+            "name": "Glacial Ice Crystal",
+            "description": "A shimmering ice crystal representing the extreme cold and beauty of Karakul Lake's high-altitude environment.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "karakul_tj_c3",
+            "name": "Pamir Nomad Bracelet",
+            "description": "A handcrafted bracelet inspired by the nomadic communities living near the lake.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "iskanderkul_tj_c1",
+            "name": "Alexander's Bronze Coin",
+            "description": "A collectible inspired by the ancient coins linked to Alexander the Great, who, according to legend, passed by Iskanderkul.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "iskanderkul_tj_c2",
+            "name": "Turquoise Water Droplet",
+            "description": "A shimmering gem that represents the mesmerizing blue-green waters of Iskanderkul.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "iskanderkul_tj_c3",
+            "name": "Fann Mountain Feather",
+            "description": "A delicate feather symbolizing the rare birds that inhabit the scenic Fann Mountains around Iskanderkul.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "merv_tm_c1",
+            "name": "Silk Road Merchant Coin",
+            "description": "A collectible inspired by the coins once used by traders along the Silk Road in Ancient Merv.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "merv_tm_c2",
+            "name": "Seljuk Ceremonial Dagger",
+            "description": "A beautifully crafted dagger representing the powerful Seljuk rule over Merv in the 11th century.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "merv_tm_c3",
+            "name": "Merv Oasis Pottery Shard",
+            "description": "A fragment of pottery inspired by the unique ceramic designs found in the ruins of Ancient Merv.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "urgench_tm_c1",
+            "name": "Kutlug-Timur Minaret Brick",
+            "description": "A small brick replica inspired by the towering Kutlug-Timur Minaret, a symbol of Kunya-Urgench's Islamic architecture.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "urgench_tm_c2",
+            "name": "Khorezmian Silk Scroll",
+            "description": "A collectible inspired by the ancient manuscripts that scholars and traders carried through Kunya-Urgench.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "urgench_tm_c3",
+            "name": "Turabek Khanum Mosaic Fragment",
+            "description": "A decorative tile piece reflecting the stunning geometric patterns inside the Mausoleum of Turabek Khanum.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "nisa_tm_c1",
+            "name": "Parthian Rhyton",
+            "description": "A collectible inspired by the ornate ivory drinking vessels discovered at Nisa, used in royal ceremonies.",
+            "category": "Historical Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "nisa_tm_c2",
+            "name": "Nisa Fortress Brick",
+            "description": "A small fragment representing the sun-dried bricks that formed the massive defensive walls of Nisa.",
+            "category": "Historical Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "nisa_tm_c3",
+            "name": "Parthian Silver Coin",
+            "description": "A replica of a silver coin minted during the Parthian rule, symbolizing their vast trade network.",
+            "category": "Historical Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "ind_tm_c1",
+            "name": "Golden Independence Emblem",
+            "description": "A collectible inspired by the golden accents on the monument, symbolizing Turkmenistan's sovereignty.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "ind_tm_c2",
+            "name": "Miniature Monument Replica",
+            "description": "A small-scale model of the Independence Monument, representing the nation's pride and unity.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "ind_tm_c3",
+            "name": "Turkmen Yurt Symbol",
+            "description": "A collectible inspired by the monument's base, shaped like a traditional Turkmen yurt.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "wed_tm_c1",
+            "name": "Golden Wedding Ring",
+            "description": "A collectible inspired by the grand wedding ceremonies held at the palace, symbolizing eternal love.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "wed_tm_c2",
+            "name": "Wedding Palace Star Emblem",
+            "description": "A miniature version of the eight-pointed star design, reflecting Turkmen heritage and architecture.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "wed_tm_c3",
+            "name": "Ornate Turkmen Carpet",
+            "description": "A collectible inspired by the intricate carpet patterns found in the palace's interior décor.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "marble_tm_c1",
+            "name": "Miniature White Marble Block",
+            "description": "A collectible piece inspired by the luxurious white marble used throughout Ashgabat's skyline.",
+            "category": "Modern Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "marble_tm_c2",
+            "name": "Guinness World Record Plaque",
+            "description": "A tribute to Ashgabat's official recognition as the city with the most white marble buildings.",
+            "category": "Modern Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "marble_tm_c3",
+            "name": "Illuminated Skyline Postcard",
+            "description": "A collectible featuring the breathtaking night-time glow of Ashgabat's marble buildings.",
+            "category": "Modern Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "darv_tm_c1",
+            "name": "Flaming Gas Rock",
+            "description": "A collectible inspired by the fiery terrain of the Darvaza Gas Crater, symbolizing nature's raw power.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "darv_tm_c2",
+            "name": "Soviet Exploration Badge",
+            "description": "A tribute to the geologists who unintentionally created the 'Door to Hell' while exploring for natural gas.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        },
+        {
+            "id": "darv_tm_c3",
+            "name": "Desert Night Postcard",
+            "description": "A collectible featuring the surreal glow of the Darvaza Gas Crater against the Karakum Desert's night sky.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "kow_tm_c1",
+            "name": "Sulfur Crystal Sample",
+            "description": "A collectible representing the mineral-rich waters of Kow Ata, known for their healing properties.",
+            "category": "Natural Item",
+            "rarity": "Rare",
+            "points": 40
+        },
+        {
+            "id": "kow_tm_c2",
+            "name": "Underground Bat Figurine",
+            "description": "A tribute to the thousands of bats that call the Kow Ata cave home.",
+            "category": "Natural Item",
+            "rarity": "Uncommon",
+            "points": 30
+        },
+        {
+            "id": "kow_tm_c3",
+            "name": "Thermal Spa Token",
+            "description": "A collectible inspired by the healing reputation of Kow Ata's warm waters.",
+            "category": "Natural Item",
+            "rarity": "Legendary",
+            "points": 50
+        }
+    ]
+}
