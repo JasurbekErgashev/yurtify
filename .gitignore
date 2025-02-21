@@ -1,0 +1,5 @@
+# Xcode
+.swiftpm/xcode/package.xcworkspace/xcuserdata/jasurbek.xcuserdatad/
+
+# macOS
+.DS_Store
