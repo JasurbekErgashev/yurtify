@@ -79,7 +79,7 @@ struct NotificationBanner: View {
                     .foregroundStyle(.primary)
                 
                 if let points = points {
-                    Text("+\(points) XP")
+                    Text("+\(points.formattedWithSpaces) XP")
                         .font(.system(size: 15, weight: .medium))
                         .foregroundStyle(
                             LinearGradient(

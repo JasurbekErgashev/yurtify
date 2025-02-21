@@ -8,11 +8,4 @@ struct Country: Identifiable, Codable {
     let capital: String
     let attractions: [Attraction]
     let categories: [Category]
-
-    // Computed property for grouping attractions by category
-    var attractionsByCategory: [Category: [Attraction]] {
-        Dictionary(grouping: attractions) { attraction in
-            attraction.category
-        }
-    }
 }

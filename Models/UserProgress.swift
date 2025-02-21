@@ -7,7 +7,6 @@ struct UserProgress: Codable {
     var achievements: [Achievement]
     var currentRank: ExplorerRank
 
-    // Initialize with default values
     init() {
         totalPoints = 0
         visitedAttractions = []
