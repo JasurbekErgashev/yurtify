@@ -128,7 +128,7 @@ struct AttractionDetailView: View {
             }
 
             // Start timer to track visit duration
-            DispatchQueue.main.asyncAfter(deadline: .now() + 60) { [attraction] in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 10) { [attraction] in
                 Task { @MainActor in
                     if !hasRecordedVisit {
                         hasRecordedVisit = true

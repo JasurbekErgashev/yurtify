@@ -3,8 +3,15 @@ import SwiftUI
 @main
 struct MyApp: App {
     @StateObject private var dataService = DataService.shared
-    @StateObject private var progressManager = UserProgressManager()
+    @StateObject private var notificationManager = NotificationManager()
+    @StateObject private var progressManager: UserProgressManager
     @State private var errorMessage: String?
+    
+    init() {
+        let notificationManager = NotificationManager()
+        _notificationManager = StateObject(wrappedValue: notificationManager)
+        _progressManager = StateObject(wrappedValue: UserProgressManager(notificationManager: notificationManager))
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -30,6 +37,7 @@ struct MyApp: App {
                 }
                 .environmentObject(dataService)
                 .environmentObject(progressManager)
+                .withNotifications(manager: notificationManager)
         }
     }
 }

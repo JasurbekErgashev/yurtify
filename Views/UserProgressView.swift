@@ -2,6 +2,7 @@ import SwiftUI
 
 struct UserProgressView: View {
     @EnvironmentObject private var progressManager: UserProgressManager
+    @State private var showingResetConfirmation = false
 
     var body: some View {
         List {
@@ -99,6 +100,38 @@ struct UserProgressView: View {
             } header: {
                 Text("Ranks")
             }
+
+            // Reset Progress Section
+            Section {
+                Button(role: .destructive) {
+                    showingResetConfirmation = true
+                } label: {
+                    HStack {
+                        Image(systemName: "arrow.counterclockwise.circle.fill")
+                            .foregroundStyle(.red)
+                        Text("Reset Progress")
+                            .foregroundStyle(.red)
+                    }
+                }
+            } footer: {
+                Text("This will reset all your progress, including achievements, points, and visited attractions.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .confirmationDialog(
+            "Reset Progress",
+            isPresented: $showingResetConfirmation,
+            titleVisibility: .visible
+        ) {
+            Button("Reset All Progress", role: .destructive) {
+                withAnimation {
+                    progressManager.resetProgress()
+                }
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("This action cannot be undone. All your achievements, points, and visited attractions will be reset.")
         }
         .navigationTitle("Your Progress")
     }
