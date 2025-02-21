@@ -31,17 +31,17 @@ protocol DataServiceProtocol {
 
 @MainActor
 final class DataService: ObservableObject, DataServiceProtocol {
-    // MARK: - Singleton
+    // Singleton
 
     static let shared = DataService()
 
-    // MARK: - Published Properties
+    // Published Properties
 
     @Published private(set) var countries: [Country] = []
     @Published private(set) var achievements: [Achievement] = []
     @Published private(set) var collectibles: [Collectible] = []
 
-    // MARK: - Constants
+    // Constants
 
     private enum Constants {
         static let countriesFile = "countries"
@@ -49,11 +49,11 @@ final class DataService: ObservableObject, DataServiceProtocol {
         static let collectiblesFile = "collectibles"
     }
 
-    // MARK: - Initialization
+    // Initialization
 
     private init() {}
 
-    // MARK: - Data Loading
+    // Data Loading
 
     func loadAllData() async throws {
         async let countriesResult = loadResource(
@@ -88,7 +88,7 @@ final class DataService: ObservableObject, DataServiceProtocol {
         }
     }
 
-    // MARK: - Private Helpers
+    // Private Helpers
 
     private func loadResource<T: Decodable, U>(_ filename: String, type _: T.Type, keyPath: KeyPath<T, U>) async throws -> U {
         guard let url = Bundle.main.url(forResource: filename, withExtension: "json") else {

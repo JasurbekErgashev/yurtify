@@ -16,18 +16,18 @@ protocol NotificationManaging {
 
 @MainActor
 final class NotificationManager: ObservableObject, NotificationManaging {
-    // MARK: - Published Properties
+    // Published Properties
 
     @Published private(set) var isShowingNotification = false
     @Published private(set) var notificationMessage = ""
     @Published private(set) var notificationIcon = ""
     @Published private(set) var notificationPoints: Int?
 
-    // MARK: - Private Properties
+    // Private Properties
 
     private var task: Task<Void, Never>?
 
-    // MARK: - Constants
+    // Constants
 
     private enum Constants {
         static let showDuration: UInt64 = 3_000_000_000 // 3 seconds in nanoseconds
@@ -35,7 +35,7 @@ final class NotificationManager: ObservableObject, NotificationManaging {
         static let animationDamping = 0.7
     }
 
-    // MARK: - Public Methods
+    // Public Methods
 
     func showNotification(message: String, icon: String, points: Int? = nil) {
         // Cancel any existing hide task
@@ -74,13 +74,13 @@ final class NotificationManager: ObservableObject, NotificationManaging {
 // MARK: - Notification Banner View
 
 struct NotificationBanner: View {
-    // MARK: - Properties
+    // Properties
 
     let message: String
     let icon: String
     let points: Int?
 
-    // MARK: - Body
+    // Body
 
     var body: some View {
         HStack(spacing: 16) {
@@ -93,7 +93,7 @@ struct NotificationBanner: View {
         .background(bannerBackground)
     }
 
-    // MARK: - View Components
+    // View Components
 
     private var iconView: some View {
         ZStack {
@@ -173,11 +173,11 @@ struct NotificationBanner: View {
 // MARK: - Notification Container Modifier
 
 struct NotificationContainer: ViewModifier {
-    // MARK: - Properties
+    // Properties
 
     @ObservedObject var notificationManager: NotificationManager
 
-    // MARK: - Body
+    // Body
 
     func body(content: Content) -> some View {
         ZStack(alignment: .top) {
