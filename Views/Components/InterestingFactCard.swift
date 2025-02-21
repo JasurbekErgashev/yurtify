@@ -2,13 +2,13 @@ import SwiftUI
 
 struct InterestingFactCard: View {
     let fact: String
-    
+
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: "star.fill")
                 .foregroundStyle(.yellow)
                 .font(.system(size: 24))
-            
+
             Text(fact)
                 .font(.subheadline)
                 .frame(maxWidth: .infinity, alignment: .leading)

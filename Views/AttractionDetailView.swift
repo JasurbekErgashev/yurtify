@@ -121,8 +121,8 @@ struct AttractionDetailView: View {
                 let uncollectedCollectibles = attraction.collectibles.filter { collectible in
                     !progressManager.progress.collectedItems.contains(collectible.id)
                 }
-                
-                if !uncollectedCollectibles.isEmpty && Double.random(in: 0...1) <= 0.33 {
+
+                if !uncollectedCollectibles.isEmpty && Double.random(in: 0 ... 1) <= 0.33 {
                     randomCollectible = uncollectedCollectibles.randomElement()
                 }
             }
@@ -140,47 +140,5 @@ struct AttractionDetailView: View {
         .onDisappear {
             hasRecordedVisit = false
         }
-    }
-}
-
-struct CollectibleCard: View {
-    let collectible: Collectible
-    @State private var isCollected = false
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            HStack(spacing: 16) {
-                Text(collectible.category.icon)
-                    .font(.system(size: 40))
-                    .frame(width: 60, height: 60)
-                    .background(.ultraThinMaterial)
-                    .clipShape(Circle())
-
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(collectible.name)
-                        .font(.headline)
-
-                    Text(collectible.category.rawValue)
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                }
-
-                Spacer()
-
-                if isCollected {
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundStyle(.green)
-                        .font(.title2)
-                }
-            }
-
-            Text(collectible.description)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .lineLimit(2)
-        }
-        .padding()
-        .background(.gray.opacity(0.1))
-        .clipShape(RoundedRectangle(cornerRadius: 16))
     }
 }

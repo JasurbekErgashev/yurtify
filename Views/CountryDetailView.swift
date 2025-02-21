@@ -46,17 +46,17 @@ struct CountryDetailView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 12) {
                         ForEach(country.categories, id: \.self) { category in
-                                CategoryButton(
-                                    category: category,
-                                    isSelected: selectedCategories.contains(category)
-                                ) {
-                                    toggleCategory(category)
-                                }
+                            CategoryButton(
+                                category: category,
+                                isSelected: selectedCategories.contains(category)
+                            ) {
+                                toggleCategory(category)
+                            }
                         }
                     }
                     .padding(.horizontal)
                 }
-                
+
                 Divider()
                     .padding(.horizontal)
 
