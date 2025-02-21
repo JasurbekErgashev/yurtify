@@ -6,130 +6,99 @@ enum DataError: Error {
     case fileNotFound
     case decodingError
     case encodingError
-    case savingError
 
     var description: String {
         switch self {
         case .fileNotFound: return "File not found in the bundle"
         case .decodingError: return "Failed to decode data"
         case .encodingError: return "Failed to encode data"
-        case .savingError: return "Failed to save data"
         }
     }
+}
+
+// MARK: - Data Service Protocol
+
+@MainActor
+protocol DataServiceProtocol {
+    var countries: [Country] { get }
+    var achievements: [Achievement] { get }
+    var collectibles: [Collectible] { get }
+
+    func loadAllData() async throws
 }
 
 // MARK: - Data Service
 
 @MainActor
-class DataService: ObservableObject {
+final class DataService: ObservableObject, DataServiceProtocol {
+    // MARK: - Singleton
+
     static let shared = DataService()
+
+    // MARK: - Published Properties
 
     @Published private(set) var countries: [Country] = []
     @Published private(set) var achievements: [Achievement] = []
     @Published private(set) var collectibles: [Collectible] = []
-    @Published private(set) var userProgress: UserProgress
 
-    private init() {
-        // Initialize with empty user progress
-        userProgress = UserProgress()
+    // MARK: - Constants
+
+    private enum Constants {
+        static let countriesFile = "countries"
+        static let achievementsFile = "achievements"
+        static let collectiblesFile = "collectibles"
     }
 
-    // MARK: - Loading Data
+    // MARK: - Initialization
+
+    private init() {}
+
+    // MARK: - Data Loading
 
     func loadAllData() async throws {
-        async let countriesResult = loadCountries()
-        async let achievementsResult = loadAchievements()
-        async let collectiblesResult = loadCollectibles()
-        async let userProgressResult = loadUserProgress()
+        async let countriesResult = loadResource(
+            Constants.countriesFile,
+            type: CountriesContainer.self,
+            keyPath: \.countries
+        )
+        async let achievementsResult = loadResource(
+            Constants.achievementsFile,
+            type: AchievementsContainer.self,
+            keyPath: \.achievements
+        )
+        async let collectiblesResult = loadResource(
+            Constants.collectiblesFile,
+            type: CollectiblesContainer.self,
+            keyPath: \.collectibles
+        )
 
         do {
-            let (countries, achievements, collectibles, progress) = try await (
+            let (countries, achievements, collectibles) = try await (
                 countriesResult,
                 achievementsResult,
-                collectiblesResult,
-                userProgressResult
+                collectiblesResult
             )
 
             self.countries = countries
             self.achievements = achievements
             self.collectibles = collectibles
-            userProgress = progress
         } catch {
             print("Error loading data: \(error.localizedDescription)")
             throw error
         }
     }
 
-    // MARK: - Individual Loaders
+    // MARK: - Private Helpers
 
-    private func loadCountries() async throws -> [Country] {
-        guard let url = Bundle.main.url(forResource: "countries", withExtension: "json") else {
+    private func loadResource<T: Decodable, U>(_ filename: String, type _: T.Type, keyPath: KeyPath<T, U>) async throws -> U {
+        guard let url = Bundle.main.url(forResource: filename, withExtension: "json") else {
             throw DataError.fileNotFound
         }
 
         let data = try Data(contentsOf: url)
         let decoder = JSONDecoder()
-        let container = try decoder.decode(CountriesContainer.self, from: data)
-        return container.countries
-    }
-
-    private func loadAchievements() async throws -> [Achievement] {
-        guard let url = Bundle.main.url(forResource: "achievements", withExtension: "json") else {
-            throw DataError.fileNotFound
-        }
-
-        let data = try Data(contentsOf: url)
-        let decoder = JSONDecoder()
-        let container = try decoder.decode(AchievementsContainer.self, from: data)
-        return container.achievements
-    }
-
-    private func loadCollectibles() async throws -> [Collectible] {
-        guard let url = Bundle.main.url(forResource: "collectibles", withExtension: "json") else {
-            throw DataError.fileNotFound
-        }
-
-        let data = try Data(contentsOf: url)
-        let decoder = JSONDecoder()
-        let container = try decoder.decode(CollectiblesContainer.self, from: data)
-        return container.collectibles
-    }
-
-    private func loadUserProgress() async throws -> UserProgress {
-        if let data = UserDefaults.standard.data(forKey: "userProgress") {
-            let decoder = JSONDecoder()
-            return try decoder.decode(UserProgress.self, from: data)
-        }
-        return UserProgress() // Return new progress if none exists
-    }
-
-    // MARK: - Saving Data
-
-    func saveUserProgress() throws {
-        let encoder = JSONEncoder()
-        do {
-            let data = try encoder.encode(userProgress)
-            UserDefaults.standard.set(data, forKey: "userProgress")
-        } catch {
-            throw DataError.savingError
-        }
-    }
-
-    // MARK: - Update Methods
-
-    func updateProgress(for achievement: Achievement) async throws {
-        userProgress.achievements.append(achievement)
-        try saveUserProgress()
-    }
-
-    func addVisitedAttraction(_ attractionId: String) async throws {
-        userProgress.visitedAttractions.insert(attractionId)
-        try saveUserProgress()
-    }
-
-    func addCollectedItem(_ itemId: String) async throws {
-        userProgress.collectedItems.insert(itemId)
-        try saveUserProgress()
+        let container = try decoder.decode(T.self, from: data)
+        return container[keyPath: keyPath]
     }
 }
 
