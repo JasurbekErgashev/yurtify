@@ -22,6 +22,16 @@
         },
         {
             "id": "3",
+            "title": "Seasoned Explorer",
+            "description": "Visit 15 different attractions",
+            "icon": "🗺️",
+            "points": 500,
+            "requirementType": "visitAttractions",
+            "requirementValue": 15,
+            "isUnlocked": false
+        },
+        {
+            "id": "4",
             "title": "Master Explorer",
             "description": "Visit 25 different attractions",
             "icon": "✈️",
@@ -31,149 +41,39 @@
             "isUnlocked": false
         },
         {
-            "id": "4",
-            "title": "History Apprentice",
-            "description": "Visit 5 historical attractions",
-            "icon": "🏛️",
-            "points": 300,
-            "requirementType": "visitAttractions",
-            "requirementValue": 5,
-            "isUnlocked": false
-        },
-        {
             "id": "5",
-            "title": "History Master",
-            "description": "Visit all 16 historical attractions",
-            "icon": "🏺",
-            "points": 800,
-            "requirementType": "visitAttractions",
-            "requirementValue": 16,
+            "title": "Uncommon Collector",
+            "description": "Collect 20 items",
+            "icon": "📦",
+            "points": 300,
+            "requirementType": "collectItems",
+            "requirementValue": 20,
             "isUnlocked": false
         },
         {
             "id": "6",
-            "title": "Modern Explorer",
-            "description": "Visit 5 modern attractions",
-            "icon": "🌆",
-            "points": 300,
-            "requirementType": "visitAttractions",
-            "requirementValue": 5,
+            "title": "Rare Collector",
+            "description": "Collect 50 items",
+            "icon": "💎",
+            "points": 400,
+            "requirementType": "collectItems",
+            "requirementValue": 50,
             "isUnlocked": false
         },
         {
             "id": "7",
-            "title": "Modern Master",
-            "description": "Visit all 13 modern attractions",
-            "icon": "🌃",
-            "points": 700,
-            "requirementType": "visitAttractions",
-            "requirementValue": 13,
+            "title": "Legendary Collector",
+            "description": "Collect 100 items",
+            "icon": "👑",
+            "points": 500,
+            "requirementType": "collectItems",
+            "requirementValue": 100,
             "isUnlocked": false
         },
         {
             "id": "8",
-            "title": "Nature Pioneer",
-            "description": "Visit 5 natural landmarks",
-            "icon": "🏔️",
-            "points": 300,
-            "requirementType": "visitAttractions",
-            "requirementValue": 5,
-            "isUnlocked": false
-        },
-        {
-            "id": "9",
-            "title": "Nature Master",
-            "description": "Visit all 12 natural landmarks",
-            "icon": "🌲",
-            "points": 600,
-            "requirementType": "visitAttractions",
-            "requirementValue": 12,
-            "isUnlocked": false
-        },
-        {
-            "id": "10",
-            "title": "Culinary Explorer",
-            "description": "Visit all 4 culinary attractions",
-            "icon": "🍳",
-            "points": 400,
-            "requirementType": "visitAttractions",
-            "requirementValue": 4,
-            "isUnlocked": false
-        },
-        {
-            "id": "11",
-            "title": "Uncommon Collector",
-            "description": "Collect 15 uncommon items",
-            "icon": "📦",
-            "points": 300,
-            "requirementType": "collectItems",
-            "requirementValue": 15,
-            "isUnlocked": false
-        },
-        {
-            "id": "12",
-            "title": "Rare Collector",
-            "description": "Collect 15 rare items",
-            "icon": "💎",
-            "points": 400,
-            "requirementType": "collectItems",
-            "requirementValue": 15,
-            "isUnlocked": false
-        },
-        {
-            "id": "13",
-            "title": "Legendary Collector",
-            "description": "Collect 15 legendary items",
-            "icon": "👑",
-            "points": 500,
-            "requirementType": "collectItems",
-            "requirementValue": 15,
-            "isUnlocked": false
-        },
-        {
-            "id": "14",
-            "title": "Historical Curator",
-            "description": "Collect 25 historical items",
-            "icon": "📜",
-            "points": 500,
-            "requirementType": "collectItems",
-            "requirementValue": 25,
-            "isUnlocked": false
-        },
-        {
-            "id": "15",
-            "title": "Modern Collector",
-            "description": "Collect 20 modern items",
-            "icon": "🎨",
-            "points": 400,
-            "requirementType": "collectItems",
-            "requirementValue": 20,
-            "isUnlocked": false
-        },
-        {
-            "id": "16",
-            "title": "Nature Collector",
-            "description": "Collect 20 natural items",
-            "icon": "🌿",
-            "points": 400,
-            "requirementType": "collectItems",
-            "requirementValue": 20,
-            "isUnlocked": false
-        },
-        {
-            "id": "17",
-            "title": "Gourmet Collector",
-            "description": "Collect all 12 culinary items",
-            "icon": "🍽️",
-            "points": 300,
-            "requirementType": "collectItems",
-            "requirementValue": 12,
-            "isUnlocked": false
-        },
-        {
-            "id": "18",
             "title": "Bronze Explorer",
-            "description": "Earn 2,500 points",
+            "description": "Earn 2 500 points",
             "icon": "🥉",
             "points": 500,
             "requirementType": "earnPoints",
@@ -181,9 +81,9 @@
             "isUnlocked": false
         },
         {
-            "id": "19",
+            "id": "9",
             "title": "Silver Explorer",
-            "description": "Earn 6,000 points",
+            "description": "Earn 6 000 points",
             "icon": "🥈",
             "points": 1000,
             "requirementType": "earnPoints",
@@ -191,13 +91,23 @@
             "isUnlocked": false
         },
         {
-            "id": "20",
+            "id": "10",
             "title": "Gold Explorer",
-            "description": "Earn 10,000 points",
+            "description": "Earn 10 000 points",
             "icon": "🥇",
             "points": 2000,
             "requirementType": "earnPoints",
             "requirementValue": 10000,
+            "isUnlocked": false
+        },
+        {
+            "id": "11",
+            "title": "Platinum Explorer",
+            "description": "Earn 15 000 points",
+            "icon": "👑",
+            "points": 5000,
+            "requirementType": "earnPoints",
+            "requirementValue": 15000,
             "isUnlocked": false
         }
     ]
