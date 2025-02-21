@@ -101,6 +101,6 @@ struct AchievementsView: View {
         case .earnPoints:
             current = progressManager.progress.totalPoints
         }
-        return "\(current)/\(achievement.requirementValue)"
+        return "\(current.formattedWithSpaces)/\(achievement.requirementValue.formattedWithSpaces)"
     }
 }
