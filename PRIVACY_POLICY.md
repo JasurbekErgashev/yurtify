@@ -22,4 +22,4 @@ This privacy policy may be updated from time to time. Any changes will be posted
 
 ## Contact
 
-For questions about this privacy policy, please open an issue in the [Yurtify GitHub repository](https://github.com/JasurbekErgashev/yurtify/issues).
+For any questions, feel free to email me at [jasurbek.fm@gmail.com](mailto:jasurbek.fm@gmail.com) or open an issue in the [Yurtify GitHub repository](https://github.com/JasurbekErgashev/yurtify/issues).
